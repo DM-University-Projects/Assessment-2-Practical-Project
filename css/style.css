@@ -164,6 +164,8 @@ html {
   background-color: #555;
 }
 
+
+
 /* Create the filtering system*/
 /* Create the filtering system with columns that floats next to each other */
 .genre {
@@ -177,6 +179,22 @@ html {
   display: block;
 }
 
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .genre {
+    padding: 8px;
+}
 
 
 
