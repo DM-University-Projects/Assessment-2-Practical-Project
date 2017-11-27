@@ -165,6 +165,17 @@ html {
 }
 
 
+/* Create the filtering system with columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    display: none; /* Hide all elements by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
 
 
 
