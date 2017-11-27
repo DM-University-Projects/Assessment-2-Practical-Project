@@ -55,8 +55,21 @@
         <h1>Must Watch Anime Series</h1>
     </section>
 
+
+    <!-- MAIN (Center website) -->
+    <div class="main">
+
+    <h2>Top Anime's</h2>
+    <input type="radio" onclick="filterSelection('all')" name="category" checked> Show all
+    <input type="radio" onclick="filterSelection('action')" name="category"> Action
+    <input type="radio" onclick="filterSelection('adventure')" name="category"> Adventure
+    <input type="radio" onclick="filterSelection('sliceoflife)" name="category"> Slice Of Life
+
+
+<!-- Anime Gallery Grid -->
+
     <div class="row">
-      <div class="column">
+      <div class="column action">
         <div class="card">
           <img src="img/watchanime1.jpg" alt="Attack On Titans" style="width:100%">
           <div class="container">
@@ -69,7 +82,7 @@
         </div>
       </div>
 
-      <div class="column">
+      <div class="column action, adventure">
         <div class="card">
           <img src="img/watchanime2.jpg" alt="HunterXHunter" style="width:100%">
           <div class="container">
@@ -81,7 +94,7 @@
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column action, adventure">
         <div class="card">
           <img src="img/watchanime3.jpg" alt="One Piece" style="width:100%">
           <div class="container">
@@ -94,7 +107,7 @@
         </div>
       </div>
 
-      <div class="column">
+      <div class="column Adventure">
         <div class="card">
           <img src="img/watchanime4.jpg" alt="FairyTails" style="width:100%">
           <div class="container">
@@ -107,12 +120,12 @@
         </div>
       </div>
 
-      <div class="column">
+      <div class="column Action, Fighting">
         <div class="card">
           <img src="img/watchanime5.jpg" alt="Claymore" style="width:100%">
           <div class="container">
             <h2>Claymore</h2>
-            <p class="title">Action, Adventure, Fighting</p>
+            <p class="title">Action, Fighting</p>
             <p> In a world rife with deadly creatures called "youma", a young silver eyed woman, Clare, works on behalf of an organisation that trains female youma halfbreeds into warriors with the ability to destroy these creatures.
               Considered a rogue for picking up a stray child & almost losing herself to her youma side by "Awakening", she is constantly assigned rather dangerous missions.</p>
 
@@ -121,58 +134,100 @@
         </div>
       </div>
 
-      <div class="column">
+      <div class="column Action">
         <div class="card">
-          <img src="img/watchanime6.jpg" alt="Claymore" style="width:100%">
+          <img src="img/watchanime6.jpg" alt="Bleach" style="width:100%">
           <div class="container">
             <h2>Bleach</h2>
             <p class="title">Action, Adventure, Fighting</p>
-            <p> In a world rife with deadly creatures called "youma", a young silver eyed woman, Clare, works on behalf of an organisation that trains female youma halfbreeds into warriors with the ability to destroy these creatures.
-              Considered a rogue for picking up a stray child & almost losing herself to her youma side by "Awakening", she is constantly assigned rather dangerous missions.</p>
+            <p> This anime follows a boy named Ichigo, a gifted kid who happens to be more than just a normal teenager. Bleach is both fast paced and slow at times. But if you can stand the fillers, it always gets back to the story line eventually.
+              The powers/fights in the series are are absolutely amazing, and the humor brakes during episodes always allow a smooth ride.</p>
 
             <p><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
 
-      <div class="column">
+      <div class="column Adventure, Action">
         <div class="card">
-          <img src="img/watchanime7.jpg" alt="Claymore" style="width:100%">
+          <img src="img/watchanime7.jpg" alt="Naruto Shippuden" style="width:100%">
           <div class="container">
             <h2>Naruto Shippuden</h2>
             <p class="title">Action, Adventure, Fighting</p>
-            <p> In a world rife with deadly creatures called "youma", a young silver eyed woman, Clare, works on behalf of an organisation that trains female youma halfbreeds into warriors with the ability to destroy these creatures.
-              Considered a rogue for picking up a stray child & almost losing herself to her youma side by "Awakening", she is constantly assigned rather dangerous missions.</p>
+            <p> This is truly going to go down as a timeless anime. It has some of the greatest fight scenes of all animes for sure. And as of recently, with the deaths of so many popular characters, you never really know who could win or lose a battle</p>
 
             <p><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
 
-      <div class="column">
+      <div class="column Adventure, Action">
         <div class="card">
-          <img src="img/watchanime8.jpg" alt="Claymore" style="width:100%">
+          <img src="img/watchanime8.jpg" alt="Cowboy Bebop" style="width:100%">
           <div class="container">
             <h2>Cowboy Bebop</h2>
             <p class="title">Action, Adventure, Fighting</p>
-            <p> In a world rife with deadly creatures called "youma", a young silver eyed woman, Clare, works on behalf of an organisation that trains female youma halfbreeds into warriors with the ability to destroy these creatures.
-              Considered a rogue for picking up a stray child & almost losing herself to her youma side by "Awakening", she is constantly assigned rather dangerous missions.</p>
+            <p> Cowboy Bebop is one of those series that is just impossible to criticize, its a very good anime that deserves to be on this list. A good story and great characters, a must watch if you like action-packed Shonens that don't get boring.</p>
 
             <p><button class="button">Contact</button></p>
           </div>
         </div>
+        <!-- END GRID -->
       </div>
 
-
-
+<!-- END MAIN -->
     </div>
+
+
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    </script>
+
+
+
+
+
+
+
+
+
 
 
 
 
 
     <footer>
-      <p>Acme Web Deisgn, Copyright &copy; 2017</p>
+      <p>ChottoItsAnime, Copyright &copy; 2017</p>
     </footer>
   </body>
 
