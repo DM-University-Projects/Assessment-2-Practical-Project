@@ -9,30 +9,44 @@
     <meta name="keywords" content="Anime, youtube, game reviews, game play, playstations, xbox one s, anime review, anime rant">
     <meta name="author" content="David Morris">
 <!-- Search Engine Optimization (SEO) -->
-    <title>ChottoItsAnime</title>
+    <title>ChottoItsAnime | Welcome</title>
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css">
 <!-- This is to link to the stylesheet css folder -->
-
+<div id="nav-placeholder">
+</div>
   </head>
   <body>
     <header>
       <div class="container">
       <!-- This class is to keep everything within the middle and from aligning to the left -->
-       <div id="branding">
-         <h1>ChottoItsAnime</h1>
-      </div>
-      <nav>
-        <ul>
+<nav>
+<ul class="nav">
+       <div id="logo">
+         <h1><span class="highlight">Chotto</span>ItsAnime</h1>
+</div>
+
 <!-- This is an unloaded list which is used for menu's-->
+
          <li><a href="index.html">Home</a></li>
          <li><a href="anime.html">Anime</a></li>
          <li><a href="index.html">Youtube</a></li>
          <li><a href="index.html">Home</a></li>
          <li><a href="index.html">Home</a></li>
          <li><a href="index.html">Home</a></li>
+
+         <div id="login">
+         <li><a href="login.html">Login</a></li>
+         <li><a href="signup.html">Register</a></li>
         </ul>
+
+
+
+        </div>
+        </ul>
+
       </nav>
+
     </div>
     </header>
 
@@ -42,7 +56,7 @@
 
 
 
-
+<section id="animeimages">
   <div class="slideshow-container">
 
     <div class="mySlides fade">
@@ -89,6 +103,8 @@
 
 
 
+
+
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
     <a class="next" onclick="plusSlides(2)">&#10096;</a>
@@ -110,6 +126,41 @@
     <span class="dot" onclick="currentSlide(7)"></span>
 
   </div>
+</section>
+
+
+<section id="youtubesub">
+  <div class="container">
+    <h1>Subcribe to ChottoItsAnime</h1>
+
+
+</section>
+
+
+
+<section id="welcome">
+  <div class="container">
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <script>
   var slideIndex = 0;
@@ -129,16 +180,11 @@
       }
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
   }
   </script>
-
-
-
-
-
-
-
-
+  <footer>
+    <p>ChottoItsAnime, Copyright &copy; 2017</p>
+  </footer>
   </body>
 </html>
