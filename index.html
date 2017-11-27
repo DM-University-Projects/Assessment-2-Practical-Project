@@ -102,16 +102,9 @@
     </div>
 
 
-
-
-
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <a class="next" onclick="plusSlides(2)">&#10096;</a>
-    <a class="next" onclick="plusSlides(3)">&#10097;</a>
-    <a class="next" onclick="plusSlides(4)">&#10098;</a>
-    <a class="next" onclick="plusSlides(5)">&#10099;</a>
-    <a class="next" onclick="plusSlides(6)">&#100910;</a>
+
 
   </div>
   <br>
@@ -128,7 +121,10 @@
   </div>
 </section>
 
-
+<section id="animegrid">
+  <div class="container">
+    <h1>Best Anime Image</h1>
+</section>
 
 
 
@@ -214,6 +210,16 @@
   var slideIndex = 0;
   showSlides();
 
+  /*function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  */
+
+
   function showSlides() {
       var i;
       var slides = document.getElementsByClassName("mySlides");
@@ -228,9 +234,13 @@
       }
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 3000); // Change image every 2 seconds
+      setTimeout(showSlides, 3500); // Change image every 3.5 seconds
   }
   </script>
+
+
+
+
   <footer>
     <p>ChottoItsAnime, Copyright &copy; 2017</p>
   </footer>
