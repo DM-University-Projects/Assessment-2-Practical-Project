@@ -1,6 +1,4 @@
 # Assessment-2-Practical-Project
-Deadline: 12pm Friday 15/12/2017 (week 11)
-
 Assignment 2: guide and marking criteria
 Assessment 2: practical project
 
@@ -44,3 +42,17 @@ Assessment 2 Marking criteria
     quality of content and suitability for proposed audience
     good understanding of all code
     creative use of available technologies
+
+
+
+
+#Introduction About The Website
+
+    This is an Anime Blog Website, where people come to view content about about anime, images, videos,
+    and top rated animes. .
+
+# Motivation to creating an Anime Social Website
+   The Motivation of creating this website is due to my Youtube Channel Called ChootiItsAnime, The website
+   contain reviews, rants and any thing related to anime. This website will also be linked to my Youtube channel
+   so that later I can use this website for any business rated ventures that is linked to what I do on youtube.
+   When I say linked I mean some of my youtube content will be shown on the website for the users to watch and comment on.
