@@ -5,34 +5,7 @@ body {
   background-color: #d4e6f1;
   margin: 0;}
 
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #e74c3c;
-}
 
-ul.nav li {float: left;}
-
-ul.nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.nav li a:hover:not(.active) {background-color: #2980b9;}
-
-ul.nav li a.active {background-color: #4CAF50;}
-
-ul.nav li.right {float: right;}
-
-@media screen and (max-width: 600px){
-    ul.nav li.right,
-    ul.nav li {float: none;}
-}
 
 footer{
   padding:10px;

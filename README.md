@@ -44,8 +44,6 @@ Assessment 2 Marking criteria
     creative use of available technologies
 
 
-
-
 #Introduction About The Website
 
     This is an Anime Blog Website, where people come to view content about about anime, images, videos,
@@ -55,4 +53,7 @@ Assessment 2 Marking criteria
    The Motivation of creating this website is due to my Youtube Channel Called ChootiItsAnime, The website
    contain reviews, rants and any thing related to anime. This website will also be linked to my Youtube channel
    so that later I can use this website for any business rated ventures that is linked to what I do on youtube.
-   When I say linked I mean some of my youtube content will be shown on the website for the users to watch and comment on.
+   When I say linked I mean some of my youtube content will be shown on the website for the users to watch and
+   comment on.
+
+#
