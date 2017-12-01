@@ -368,7 +368,7 @@ button {
 
 
 
-/* Photo grid system */
+/* index Photo grid system */
 * {
     box-sizing: border-box;
 }
@@ -392,6 +392,7 @@ body {
 
 .column img {
     margin-top: 12px;
+    width: 100%;
 }
 
 /* Clear floats after the columns */

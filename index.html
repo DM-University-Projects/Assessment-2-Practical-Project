@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang "en">
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,
     initial-scale=1.0">
@@ -10,17 +11,15 @@
     <meta name="author" content="David Morris">
 <!-- Search Engine Optimization (SEO) -->
     <title>ChottoItsAnime | Welcome</title>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
 <!-- This is to link to the stylesheet css folder -->
-
-</div>
   </head>
   <body>
     <header>
       <div id="logo">
         <h2><span class="highlight">Chotto</span>ItsAnime</h2>
-     </div>
+      </div>
       <div class="container">
 
       <!-- This class is to keep everything within the middle and from aligning to the left -->
@@ -133,50 +132,49 @@
     <!-- Photo Grid -->
     <div class="row">
       <div class="column">
-        <img src="img/grid1.jpg" style="width:100%">
-        <img src="img/grid2.jpg" style="width:100%">
-        <img src="img/grid3.jpg" style="width:100%">
-        <img src="img/grid4.jpg" style="width:100%">
-        <img src="img/grid5.jpg" style="width:100%">
-        <img src="img/grid6.jpg" style="width:100%">
-        <img src="img/grid7.jpg" style="width:100%">
+        <img src="img/grid1.jpg">
+        <img src="img/grid2.jpg">
+        <img src="img/grid3.jpg">
+        <img src="img/grid4.jpg">
+        <img src="img/grid5.jpg">
+        <img src="img/grid6.jpg">
+        <img src="img/grid7.jpg">
       </div>
       <div class="column">
-        <img src="img/grid8.jpg" style="width:100%">
-        <img src="img/grid9.jpg" style="width:100%">
-        <img src="img/grid10.jpg" style="width:100%">
-        <img src="img/grid11.jpg" style="width:100%">
-        <img src="img/grid12.jpg" style="width:100%">
-        <img src="img/grid13.jpg" style="width:100%">
-        <img src="img/grid14.jpg" style="width:100%">
-        <img src="img/grid37.jpg" style="width:100%">
+        <img src="img/grid8.jpg">
+        <img src="img/grid9.jpg">
+        <img src="img/grid10.jpg">
+        <img src="img/grid11.jpg">
+        <img src="img/grid12.jpg">
+        <img src="img/grid13.jpg">
+        <img src="img/grid14.jpg">
+        <img src="img/grid37.jpg">
       </div>
       <div class="column">
-        <img src="img/grid15.jpg" style="width:100%">
-        <img src="img/grid16.jpg" style="width:100%">
-        <img src="img/grid17.jpg" style="width:100%">
-        <img src="img/grid18.jpg" style="width:100%">
-        <img src="img/grid19.jpg" style="width:100%">
-        <img src="img/grid20.jpg" style="width:100%">
-        <img src="img/grid21.jpg" style="width:100%">
-        <img src="img/grid22.jpg" style="width:100%">
-        <img src="img/grid23.jpg" style="width:100%">
-        <img src="img/grid24.jpg" style="width:100%">
-        <img src="img/grid25.jpg" style="width:100%">
-
+        <img src="img/grid15.jpg">
+        <img src="img/grid16.jpg">
+        <img src="img/grid17.jpg">
+        <img src="img/grid18.jpg">
+        <img src="img/grid19.jpg">
+        <img src="img/grid20.jpg">
+        <img src="img/grid21.jpg">
+        <img src="img/grid22.jpg">
+        <img src="img/grid23.jpg">
+        <img src="img/grid24.jpg">
+        <img src="img/grid25.jpg">
       </div>
       <div class="column">
-        <img src="img/grid26.jpg" style="width:100%">
-        <img src="img/grid27.jpg" style="width:100%">
-        <img src="img/grid28.jpg" style="width:100%">
-        <img src="img/grid29.jpg" style="width:100%">
-        <img src="img/grid30.jpg" style="width:100%">
-        <img src="img/grid31.jpg" style="width:100%">
-        <img src="img/grid32.jpg" style="width:100%">
-        <img src="img/grid33.jpg" style="width:100%">
-        <img src="img/grid34.jpg" style="width:100%">
-        <img src="img/grid35.jpg" style="width:100%">
-        <img src="img/grid36.jpg" style="width:100%">
+        <img src="img/grid26.jpg">
+        <img src="img/grid27.jpg">
+        <img src="img/grid28.jpg">
+        <img src="img/grid29.jpg">
+        <img src="img/grid30.jpg">
+        <img src="img/grid31.jpg">
+        <img src="img/grid32.jpg">
+        <img src="img/grid33.jpg">
+        <img src="img/grid34.jpg">
+        <img src="img/grid35.jpg">
+        <img src="img/grid36.jpg">
 
       </div>
     </div>
@@ -194,54 +192,9 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-  <script>
-  var slideIndex = 0;
-  showSlides();
-
-  /*function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  */
-
-
-  function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 3500); // Change image every 3,5 seconds
-  }
-  </script>
-
-
-
-
   <footer>
     <p>ChottoItsAnime, Copyright &copy; 2017</p>
   </footer>
+<script src="js/imgslide.js"></script>
   </body>
 </html>
