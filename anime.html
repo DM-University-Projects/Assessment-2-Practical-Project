@@ -10,8 +10,8 @@
     <meta name="author" content="David Morris">
 <!-- Search Engine Optimization (SEO) -->
     <title>ChottoItsAnime | Welcome</title>
-    <script src="js/main.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
 <!-- This is to link to the stylesheet css folder -->
 
 </div>
@@ -74,7 +74,7 @@
     <div class="row">
       <div class="genre action">
         <div class="card">
-          <img src="img/watchanime1.jpg" alt="Attack On Titans" style="width:100%">
+          <img src="images/watchanime1.jpg" alt="Attack On Titans" style="width:100%">
           <div class="container">
             <h4>Attack On Titan</h4>
             <p class="title">Action</p>
@@ -86,7 +86,7 @@
 
       <div class="genre action, adventure, comedy">
         <div class="card">
-          <img src="img/watchanime2.jpg" alt="HunterXHunter" style="width:100%">
+          <img src="images/watchanime2.jpg" alt="HunterXHunter" style="width:100%">
           <div class="container">
             <h4>Hunter X Hunter</h4>
             <p class="title">Action & Adventure</p>
@@ -96,7 +96,7 @@
       </div>
       <div class="genre action, adventure, comedy">
         <div class="card">
-          <img src="img/watchanime3.jpg" alt="One Piece" style="width:100%">
+          <img src="images/watchanime3.jpg" alt="One Piece" style="width:100%">
           <div class="container">
             <h4>One Piece</h4>
             <p class="title">Action, Adventure, Fighting</p>
@@ -107,7 +107,7 @@
 
       <div class="genre adventure, action, comedy ">
         <div class="card">
-          <img src="img/watchanime4.jpg" alt="FairyTails" style="width:100%">
+          <img src="images/watchanime4.jpg" alt="FairyTails" style="width:100%">
           <div class="container">
             <h4>FairyTail</h4>
             <p class="title">Action, Adventure, Comedy</p>
@@ -119,7 +119,7 @@
 
       <div class="genre action">
         <div class="card">
-          <img src="img/watchanime5.jpg" alt="Claymore" style="width:100%">
+          <img src="images/watchanime5.jpg" alt="Claymore" style="width:100%">
           <div class="container">
             <h4>Claymore</h4>
             <p class="title">Action, Fighting</p>
@@ -131,7 +131,7 @@
 
       <div class="genre action, comedy">
         <div class="card">
-          <img src="img/watchanime6.jpg" alt="Bleach" style="width:100%">
+          <img src="images/watchanime6.jpg" alt="Bleach" style="width:100%">
           <div class="container">
             <h4>Bleach</h4>
             <p class="title">Action, Adventure</p>
@@ -143,7 +143,7 @@
 
       <div class="genre adventure, action">
         <div class="card">
-          <img src="img/watchanime7.jpg" alt="Naruto Shippuden" style="width:100%">
+          <img src="images/watchanime7.jpg" alt="Naruto Shippuden" style="width:100%">
           <div class="container">
             <h4>Naruto Shippuden</h4>
             <p class="title">Action, Adventure</p>
@@ -155,7 +155,7 @@
 
       <div class="genre adventure, action">
         <div class="card">
-          <img src="img/watchanime8.jpg" alt="Cowboy Bebop" style="width:100%">
+          <img src="images/watchanime8.jpg" alt="Cowboy Bebop" style="width:100%">
           <div class="container">
             <h4>Cowboy Bebop</h4>
             <p class="title">Action, Adventure</p>
@@ -167,7 +167,7 @@
 
       <div class="genre action, romance, comedy">
         <div class="card">
-          <img src="img/watchanime9.jpg" alt="Angel Beats" style="width:100%">
+          <img src="images/watchanime9.jpg" alt="Angel Beats" style="width:100%">
           <div class="container">
             <h4>Angel Beats</h4>
             <p class="title">Action, Adventure, Romance, Comedy</p>
@@ -179,7 +179,7 @@
 
       <div class="genre adventure, action, romance, comedy">
         <div class="card">
-          <img src="img/watchanime10.jpg" alt="Trigun" style="width:100%">
+          <img src="images/watchanime10.jpg" alt="Trigun" style="width:100%">
           <div class="container">
             <h4>Tri-Gun</h4>
             <p class="title">Action, Adventure, Fighting</p>
@@ -191,7 +191,7 @@
 
         <div class="genre adventure, action, romance, comedy">
           <div class="card">
-            <img src="img/watchanime11.jpg" alt="Angel Beats" style="width:100%">
+            <img src="images/watchanime11.jpg" alt="Angel Beats" style="width:100%">
             <div class="container">
               <h4>Guren Lagan</h4>
               <p class="title">Action, Adventure, Fighting</p>
@@ -203,7 +203,7 @@
 
           <div class="genre adventure, action, romance, comedy">
             <div class="card">
-              <img src="img/watchanime12.jpg" alt="Tokyo Ghoul" style="width:100%">
+              <img src="images/watchanime12.jpg" alt="Tokyo Ghoul" style="width:100%">
               <div class="container">
                 <h4>Tokyo Ghoul</h4>
                 <p class="title">Action, Adventure, Fighting</p>
@@ -219,62 +219,17 @@
     </div>
 
 
-<script>
-    filterSelection("all")
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("genre");
-      if (c == "all") c = "";
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
-
-    function w3AddClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-      }
-    }
-
-    function w3RemoveClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-          arr1.splice(arr1.indexOf(arr2[i]), 1);
-        }
-      }
-      element.className = arr1.join(" ");
-    }
-    </script>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
-
-
-
-
-
-
-</html>
 <footer>
   <p>ChottoItsAnime, Copyright &copy; 2017</p>
 </footer>
+
+<!-- Scripts -->
+  <script src="assets/js/filter.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+</body>
+</html>

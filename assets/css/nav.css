@@ -1,103 +1,28 @@
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e74c3c;
 }
 
-.fa-times{
-	right: 10px;
-	top: 10px;
-	opacity: 0.7;
-	cursor: pointer;
-	position: absolute;
-	color: white;
-	transition: all 0.2s ease-in-out;
+ul.nav li {float: left;}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.fa-times:hover{
-	opacity: 1;
-}
+ul.nav li a:hover:not(.active) {background-color: #2980b9;}
 
-.sidebar_menu{
-	position: fixed;
-	width: 250px;
-	margin-left: 0px;
-	overflow: hidden;
-	height: 100vh;
-	max-height: 100vh;
-	background-color: rgba(17,17,17,0.9);
-	opacity: 0.9;
-	transition: all 0.3s ease-in-out;
-}
+ul.nav li a.active {background-color: #4CAF50;}
 
-.hide_menu{
-	margin-left: -250px;
-	transition: all 0.3s ease-in-out;
-}
+ul.nav li.right {float: right;}
 
-.toggle_menu{
-	position: fixed;
-	padding: 15px 20px 15px 15px;
-	margin-top: 70px;
-	color: white;
-	cursor: pointer;
-	background-color: #648B79;
-	opacity: 0;
-	z-index: 10000;
-	font-size: 2em;
-	transition: all 0.2s ease-in-out;
-}
-
-.opacity_one{
-	opacity: 1;
-	transition: all 0.2s ease-in-out;
-}
-
-.toggle_menu:hover{
-	background-color: #FE4365;
-	transition: all 0.2s ease-in-out;
-}
-
-.menu_close{
-	color: #D8D8D8;
-	position: absolute;
-	right: 8px;
-	opacity: 0.7;
-	top: 6px;
-	font-size: 1.1em;
-	transition: all 0.3s ease-in-out;
-	cursor: pointer;
-}
-
-.menu_close:hover{
-	color: #FE4365;
-	opacity: 1;
-	transition: all 0.2s ease-in-out;
-}
-
-.navigation_section{
-	margin: 20px 0;
-	display: block;
-	width: 200px;
-	margin-left: 25px;
-}
-
-.navigation_item{
-	font-weight: 200;
-	font-family: 'Open Sans';
-	color: white;
-	padding: 12px 0px;
-	box-sizing: border-box;
-	font-size: 14px;
-	color: #D8D8D8;
-	border-bottom: solid 1px #D8D8D8;
-	transition: all 0.3s ease-in-out;
-	cursor: pointer;
-  text-align: center;
-}
-
-.navigation_item:hover{
-	color: white;
-	transition: all 0.3s ease-in-out;
+@media screen and (max-width: 600px){
+    ul.nav li.right,
+    ul.nav li {float: none;}
 }
