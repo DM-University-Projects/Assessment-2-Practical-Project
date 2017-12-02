@@ -50,10 +50,15 @@ Assessment 2 Marking criteria
     and top rated animes. .
 
 # Motivation to creating an Anime Social Website
+
    The Motivation of creating this website is due to my Youtube Channel Called ChootiItsAnime, The website
    contain reviews, rants and any thing related to anime. This website will also be linked to my Youtube channel
    so that later I can use this website for any business rated ventures that is linked to what I do on youtube.
    When I say linked I mean some of my youtube content will be shown on the website for the users to watch and
    comment on.
 
-#
+# Implications That I Faced
+
+  Tried in incorporate a open close navigation - I would say this was the most trouble for me. Easy to understand
+  task but for some reason it would not work for me. Maybe it was clashing with some css code but I will try to
+  sort it out at a later date. 02/12/2017 - 1:39pm
