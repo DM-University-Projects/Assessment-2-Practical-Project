@@ -49,7 +49,7 @@ header #logo h1{
   margin:0;
 }
 
-header #login{
+header #about{
   float:right;
 }
 
@@ -342,7 +342,7 @@ button {
 
 
 
-/* index Photo grid system */
+/* Index Photo grid system */
 * {
     box-sizing: border-box;
 }
