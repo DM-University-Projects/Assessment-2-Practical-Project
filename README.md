@@ -62,3 +62,6 @@ Assessment 2 Marking criteria
   Tried in incorporate a open close navigation - I would say this was the most trouble for me. Easy to understand
   task but for some reason it would not work for me. Maybe it was clashing with some css code but I will try to
   sort it out at a later date. 02/12/2017 - 1:39pm
+
+  Had many Issues implicating a open and close Nav bar. Used youtube videos for help but still was a big difficult.
+  After search the internet I found one that somewhat worked. 02/12/2017 - 4:46pm
