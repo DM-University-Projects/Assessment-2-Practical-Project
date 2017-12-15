@@ -65,3 +65,6 @@ Assessment 2 Marking criteria
 
   Had many Issues implicating a open and close Nav bar. Used youtube videos for help but still was a big difficult.
   After search the internet I found one that somewhat worked. 02/12/2017 - 4:46pm
+
+# Giving Thanks to Dave and Fania
+  15/12/2017 - Finally finished all other assignments, some students had multiple subjects to complete depending on what they choose. So I'm glad that this extension was given because it is really going to helped with producing a website that I'm okay with. Thank You! 
