@@ -25,13 +25,13 @@ header #youtubename{
   float:left;
 }
 
-header #youtubename h1{
+header #youtubename h2{
   margin:0;
 }
 
 header nav{
   float:right;
-  margin-top:10px;
+  margin-top:5px;
 }
 
 header .highlight, header .current a{
