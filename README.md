@@ -70,10 +70,20 @@ Assessment 2 Marking criteria
   15/12/2017 - Finally finished all other assignments, some students had multiple subjects to complete depending on what they choose. So I'm glad that this extension was given because it is really going to helped with producing a website that I'm okay with. Thank You!
 
 # Harvard Referencing (HR1)
-In-text: (YouTube, 2017)
+  In-text: (YouTube, 2017)
 
-Your Bibliography: YouTube. (2017). Responsive Website Basics (in 3 simple steps). [online] Available at: https://www.youtube.com/watch?v=h3IdEqpjMvQ&t=333s [Accessed 18 Dec. 2017].
+  Your Bibliography: YouTube. (2017). Responsive Website Basics (in 3 simple steps). [online] Available at: https://www.youtube.com/watch?v=h3IdEqpjMvQ&t=333s [Accessed 18 Dec. 2017].
 
-In-text: (GitHub, 2017)
+  In-text: (GitHub, 2017)
 
-Your Bibliography: GitHub. (2017). DevTips/Responsive-Web-Design-Basics. [online] Available at: https://github.com/DevTips/Responsive-Web-Design-Basics [Accessed 18 Dec. 2017].
+  Your Bibliography: GitHub. (2017). DevTips/Responsive-Web-Design-Basics. [online] Available at: https://github.com/DevTips/Responsive-Web-Design-Basics [Accessed 18 Dec. 2017].
+
+
+# Harvard Referencing (HR2)
+  In-text: (W3schools.com, 2017)
+
+  Your Bibliography: W3schools.com. (2017). Tryit Editor v3.5. [online] Available at: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_modal_js [Accessed 18 Dec. 2017].
+
+  In-text: (W3schools.com, 2017)
+
+  Your Bibliography: W3schools.com. (2017). Tryit Editor v3.5. [online] Available at: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive_js [Accessed 18 Dec. 2017].

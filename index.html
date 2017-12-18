@@ -20,14 +20,16 @@
     <!-- Header -->
     <header>
       <div class="container">
+        <div id="youtubename">
       <!-- This class is to keep everything within the middle and from aligning to the left -->
+        <h2><span class="highlight">Chotto</span>ItsAnime</h2>
+      </div>
     <nav>
-      <ul class="nav">
+      <ul>
     <!-- This is an unloaded list which is used for menu's-->
          <li class="current"><a href="index.html">Home</a></li>
          <li><a href="anime.html">Anime</a></li>
          <li><a href="youtube.html">Youtube</a></li>
-         <div id="about">
          <li><a href="about.html">About</a></li>
       </ul>
     </nav>
@@ -36,53 +38,50 @@
 
 
 <!-- Image SlideShow -->
-<section id="animeimages">
+<section>
   <div class="slideshow-container">
-
     <div class="mySlides fade">
       <div class="numbertext">1 / 7</div>
       <img src="images/img1.jpg">
-      <div class="text">Caption Text</div>
+      <div class="text">Obito (Naruto Shippuden)</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">2 / 7</div>
       <img src="images/img2.jpg">
-      <div class="text">Caption Two</div>
+      <div class="text">Touka Kirishima (Tokyo Ghoul)</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">3 / 7</div>
       <img src="images/img3.jpg">
-      <div class="text">Caption Three</div>
+      <div class="text">FateStay Night</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">4 / 7</div>
       <img src="images/img4.jpg">
-      <div class="text">Caption Three</div>
+      <div class="text">Naruto Shippuden (The Five kage)</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">5 / 7</div>
       <img src="images/img5.jpg">
-      <div class="text">Caption Three</div>
+      <div class="text">High School Of The Dead</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">6 / 7</div>
       <img src="images/img6.jpg">
-      <div class="text">Caption Three</div>
+      <div class="text">One Punch Man (Saitama)</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">7 / 7</div>
       <img src="images/img7.jpg">
-      <div class="text">Caption Three</div>
+      <div class="text">Bleach (Ichigo Kurosaki)</div>
     </div>
-
   </div>
-
 
   <div id="dot">
     <span class="dot"></span>
@@ -100,7 +99,7 @@
     <h1>Best Anime Image</h1>
 </section>
 
-<section id="welcome">
+<section>
   <div class="container">
     <!-- Photo Grid -->
     <div class="row">
@@ -148,9 +147,17 @@
         <img src="images/grid34.jpg">
         <img src="images/grid35.jpg">
         <img src="images/grid36.jpg">
+        <div class="clearfix"></div>
       </div>
     </div>
 </section>
+
+<!-- The Modal Harvard Referencing (HR2)-->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 
   <!-- Footer -->
     <footer id="footer">
@@ -171,8 +178,6 @@
 
 
   <!-- Scripts -->
-    <script src="assets/js/nav.js"></script>
-    <!-- Scripts -->
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/main.js"></script>
 
