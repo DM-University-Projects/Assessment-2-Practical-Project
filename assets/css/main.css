@@ -1,4 +1,4 @@
-/* Starting Index page*/
+/* Main Index body*/
 
 body {
   font: 15px/1.5 Arial, Helvetica,sans-serif;
@@ -14,15 +14,25 @@ body {
   overflow:hidden;
 }
 
-/* Header **/
-header{
-  background:#35424a;
-  color:#ffffff;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom:#2980b9 3px solid;
-  border-top:#2980b9 3px solid;
+/* I want all the ul to have a zero margin
+and padding, but placing it here in global,
+all will not have margin and padding */
+ul{
+  margin:0;
+  padding:0;
 }
+/* main body finished*/
+
+
+
+
+
+
+
+
+
+
+
 
 /* Subcribe Note */
 #youtubesub{
@@ -37,6 +47,7 @@ header{
 
 /* Anime Photo Grid System*/
 #animegrid{
+  min-height:400px;
   padding:0px;
   color:#ffffff;
   background:#2980b9;

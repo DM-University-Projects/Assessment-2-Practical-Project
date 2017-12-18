@@ -1,28 +1,45 @@
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #e74c3c;
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#2980b9 3px solid;
+  border-top:#2980b9 3px solid;
 }
 
-ul.nav li {float: left;}
-
-ul.nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
 }
 
-ul.nav li a:hover:not(.active) {background-color: #2980b9;}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
 
-ul.nav li a.active {background-color: #4CAF50;}
+header #youtubename{
+  float:left;
+}
 
-ul.nav li.right {float: right;}
+header #youtubename h1{
+  margin:0;
+}
 
-@media screen and (max-width: 600px){
-    ul.nav li.right,
-    ul.nav li {float: none;}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#2980b9;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#2980b9;
+  font-weight:bold;
 }
