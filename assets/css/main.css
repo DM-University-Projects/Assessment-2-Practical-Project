@@ -24,23 +24,6 @@ header{
   border-top:#2980b9 3px solid;
 }
 
-header #logo{
-  float:left;
-}
-
-header #logo h1{
-  margin:0;
-}
-
-header #login{
-  float:right;
-}
-
-header .highlight, header .current a{
-  color:#2980b9;
-  font-weight:bold;
-}
-
 /* Subcribe Note */
 #youtubesub{
   padding:0px;
