@@ -98,3 +98,9 @@ Assessment 2 Marking criteria
   Your Bibliography: Leadbetter, T., Leadbetter, T. and Leadbetter, T. (2017). The article element | HTML5 Doctor. [online] Html5doctor.com. Available at: http://html5doctor.com/the-article-element/ [Accessed 18 Dec. 2017].
 
   This Link Helped with understanding how to use HTML 5 Semantics Element Article and Section
+
+# Harvard Referencing (HR4)
+
+  In-text: (SitePoint, 2017)
+
+  Your Bibliography: SitePoint. (2017). Building a Filtering Component with CSS Animations & jQuery — SitePoint. [online] Available at: https://www.sitepoint.com/building-a-filtering-component-with-css-animations-jquery/ [Accessed 19 Dec. 2017].
