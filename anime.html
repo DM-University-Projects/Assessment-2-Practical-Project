@@ -37,24 +37,21 @@
 </header>
 
     <!-- MAIN (Center website) -->
-    <div class="main">
-
+    <div class="anime filter">
     <h4>Top Anime's</h4>
-    <input type="radio" onclick="filterSelection('all')" name="category" checked> Show all
-    <input type="radio" onclick="filterSelection('action')" name="category"> Action
-    <input type="radio" onclick="filterSelection('adventure')" name="category"> Adventure
-    <input type="radio" onclick="filterSelection('sliceoflife)" name="category"> Slice Of Life
-    <input type="radio" onclick="filterSelection('romance')" name="category"> Romance
-    <input type="radio" onclick="filterSelection('comedy')" name="category"> Comedy
-
-
+    <a class="all active" data-filter="all" role="button">Show All</a>
+    <a class="action" data-filter="action" role="button">Action</a>
+    <a class="adventure" data-filter="adventure" role="button">Adventure</a>
+    <a class="sliceoflife" data-filter="sliceoflife" role="button">Slice Of Life</a>
+    <a class="romance" data-filter="romance" role="button">Romance</a>
+    <a class="comedy" data-filter="comedy" role="button">Comedy</a>
 
 <!-- Anime Gallery Grid -->
 
-    <div class="row">
-      <div class="genre action">
-        <div class="card">
-          <img src="images/watchanime1.jpg" alt="Attack On Titans" style="width:100%">
+    <div class="main">
+      <a class="action" data-category="action"</a>
+
+          <img src="images/watchanime1.jpg" alt="Attack On Titans">
           <div class="container">
             <h4>Attack On Titan</h4>
             <p class="title">Action</p>

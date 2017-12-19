@@ -87,3 +87,14 @@ Assessment 2 Marking criteria
   In-text: (W3schools.com, 2017)
 
   Your Bibliography: W3schools.com. (2017). Tryit Editor v3.5. [online] Available at: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive_js [Accessed 18 Dec. 2017].
+
+  In-text: (W3schools.com, 2017)
+
+  Your Bibliography: W3schools.com. (2017). How To Create Modal Images. [online] Available at: https://www.w3schools.com/howto/howto_css_modal_images.asp [Accessed 19 Dec. 2017].
+
+# Harvard Referencing (HR3)
+  In-text: (Leadbetter, Leadbetter and Leadbetter, 2017)
+
+  Your Bibliography: Leadbetter, T., Leadbetter, T. and Leadbetter, T. (2017). The article element | HTML5 Doctor. [online] Html5doctor.com. Available at: http://html5doctor.com/the-article-element/ [Accessed 18 Dec. 2017].
+
+  This Link Helped with understanding how to use HTML 5 Semantics Element Article and Section

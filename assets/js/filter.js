@@ -1,32 +1,32 @@
-//Filtering System For the Anime Page
-     filterSelection("all")
-     function filterSelection(c) {
-       var x, i;
-       x = document.getElementsByClassName("genre");
-       if (c == "all") c = "";
-       for (i = 0; i < x.length; i++) {
-         w3RemoveClass(x[i], "show");
-         if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-       }
-     }
+(function($) {
 
-     function w3AddClass(element, name) {
-       var i, arr1, arr2;
-       arr1 = element.className.split(" ");
-       arr2 = name.split(" ");
-       for (i = 0; i < arr2.length; i++) {
-         if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-       }
-     }
+  'use strict';
 
-     function w3RemoveClass(element, name) {
-       var i, arr1, arr2;
-       arr1 = element.className.split(" ");
-       arr2 = name.split(" ");
-       for (i = 0; i < arr2.length; i++) {
-         while (arr1.indexOf(arr2[i]) > -1) {
-           arr1.splice(arr1.indexOf(arr2[i]), 1);
-         }
-       }
-       element.className = arr1.join(" ");
-     }
+  var $filters = $('.filter [data-filter]'),
+    $main = $('.main [data-category]');
+
+  $filters.on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+
+    $filters.removeClass('active');
+    $this.addClass('active');
+
+    var $filterColor = $this.attr('data-filter');
+
+    if ($filterColor == 'all') {
+      $main.removeClass('is-animated')
+        .fadeOut().finish().promise().done(function() {
+          $main.each(function(i) {
+            $(this).addClass('is-animated').delay((i++) * 200).fadeIn();
+          });
+        });
+    } else {
+      $boxes.removeClass('is-animated')
+        .fadeOut().finish().promise().done(function() {
+          $main.filter('[data-category = "' + $filterColor + '"]').each(function(i) {
+            $(this).addClass('is-animated').delay((i++) * 200).fadeIn();
+          });
+       });
+   }
+ });
