@@ -22,11 +22,11 @@
           });
         });
     } else {
-      $boxes.removeClass('is-animated')
+      $main.removeClass('is-animated')
         .fadeOut().finish().promise().done(function() {
           $main.filter('[data-category = "' + $filterColor + '"]').each(function(i) {
             $(this).addClass('is-animated').delay((i++) * 200).fadeIn();
           });
        });
    }
- });
+ };
