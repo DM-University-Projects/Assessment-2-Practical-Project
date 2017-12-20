@@ -444,78 +444,14 @@ body {
 
     /* Anime.html Page CSS*/
 
-  #animefilter  {
-    margin: 30px 0 10px;
-    width:100%;
-	  float:left;
-  }
-  #animefilter{
-  	width:80%;
-  	float:left;
-  }
-
-  #animefilter ul{
-  	width:100%;
-  	float:left;
-  	margin:0px;
-  	padding:0px;
-  }
-  #animefilter ul li{
-  	list-style-type:none;
-  	float@left;
-  	display:inline-block;
-  	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
-  	font-size:10pt;
-  	color:#2980b9;
-  	margin-bottom:20px;
-  }
-  #animecontainer{
-  	width:100%;
-  	min-height:500px !important;
-  	float:left;
-  }
-
-  .main {
-  width:100%;
-	float:left;
-	border: 1px solid #d5d5d5;
-  }
-
-  .main:hover{
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: alpha(opacity=50);
-	-moz-opacity:0.5;
-	-khtml-opacity: 0.5;
-	opacity: 0.5;
-}
-
-.main .title{
-	width:94%;
-	float:right;
-	padding:3%;
-	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
-  font-size:16pt;
-	color:#da640f;
-	text-align:right;
-	position: relative;
-	border-bottom: 1px solid #d5d5d5;
-}
+    /* full width*/
+    .boxes-full{
+    	background-color:white;
+    	width:100%;
+    	height:auto;
+    }
 
 
-
-
-  .filter a.active:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 15px 15px 0 0;
-    border-color: #333 transparent transparent transparent;
-  }
 
   .is-animated {
     animation: .6s zoom-in;
