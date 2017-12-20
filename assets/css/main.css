@@ -444,70 +444,62 @@ body {
 
     /* Anime.html Page CSS*/
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  html {
-    font: 18px/1.65 sans-serif;
-    text-align: center;
-  }
-
-  li {
-    list-style-type: none;
-  }
-
-  a {
-    text-decoration: none;
-    display: block;
-    color: #333;
-  }
-
-
-
-  .filter {
+  #animefilter  {
     margin: 30px 0 10px;
     width:100%;
 	  float:left;
   }
+  #animefilter{
+  	width:80%;
+  	float:left;
+  }
 
-  .filter a {
-    display: inline-block;
-    padding: 10px;
-    border: 2px solid #333;
-    position: relative;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  #animefilter ul{
+  	width:100%;
+  	float:left;
+  	margin:0px;
+  	padding:0px;
+  }
+  #animefilter ul li{
+  	list-style-type:none;
+  	float@left;
+  	display:inline-block;
+  	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
+  	font-size:10pt;
+  	color:#2980b9;
+  	margin-bottom:20px;
+  }
+  #animecontainer{
+  	width:100%;
+  	min-height:500px !important;
+  	float:left;
   }
 
   .main {
-    display: flex;
-    flex-wrap: wrap;
+  width:100%;
+	float:left;
+	border: 1px solid #d5d5d5;
   }
 
-  .main a {
-    width: 23%;
-    border: 2px solid #333;
-    margin: 0 1% 20px 1%;
-    line-height: 60px;
-  }
-  .main img{
-  	width:30%;
-  	border:0px;
-    height:30%;
-    float:left
-  }
-  .main-padding{
-  	width:94%;
-  	height:100% !important;
-  	padding:3%;
-  }
-  .fullpadding{
-  	padding:1%;
-  	width:98%;
-  }
+  .main:hover{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.main .title{
+	width:94%;
+	float:right;
+	padding:3%;
+	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
+  font-size:16pt;
+	color:#da640f;
+	text-align:right;
+	position: relative;
+	border-bottom: 1px solid #d5d5d5;
+}
 
 
 
