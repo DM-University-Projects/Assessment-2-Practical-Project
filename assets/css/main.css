@@ -492,8 +492,9 @@ body {
     line-height: 60px;
   }
   .main img{
-  	width:100%;
+  	width:30%;
   	border:0px;
+    height:30%;
   }
 
   .filter a.active:before {
