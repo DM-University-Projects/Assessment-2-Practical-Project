@@ -63,8 +63,11 @@ Assessment 2 Marking criteria
   task but for some reason it would not work for me. Maybe it was clashing with some css code but I will try to
   sort it out at a later date. 02/12/2017 - 1:39pm
 
-  Had many Issues implicating a open and close Nav bar. Used youtube videos for help but still was a big difficult.
+  Had many Issues implicating a open and close Nav bar. Used YouTube videos for help but still was a big difficult.
   After search the internet I found one that somewhat worked. 02/12/2017 - 4:46pm
+
+  One problem that I can say annoyed me was implementing a arrow image within the boxes I wanted to filter
+  for some reason the arrow would never show, I researched and spend time trying to implement this and to no result. -21/12/2-17
 
 # Giving Thanks to Dave and Fania
   15/12/2017 - Finally finished all other assignments, some students had multiple subjects to complete depending on what they choose. So I'm glad that this extension was given because it is really going to helped with producing a website that I'm okay with. Thank You!
