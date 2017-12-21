@@ -444,14 +444,140 @@ body {
 
     /* Anime.html Page CSS*/
 
-    /* full width*/
-    .boxes-full{
-    	background-color:white;
-    	width:100%;
-    	height:auto;
-    }
+  /* full width*/
+.boxes-full{
+  background-color:white;
+  width:100%;
+  height:auto;
+  float:left;
+  margin:15px 0px;
+  border:1px solid #d5d5d5;
+  text-align:center;
+  position:relative;
+}
+
+.box-arrow{
+	background-image: url(../images/arrow-down.jpg);
+	background-repeat: no-repeat;
+	margin-left: -16px;
+	position: absolute;
+	left: 50%;
+	bottom: -17px;
+	display:block;
+	width:32px;
+	height:18px;
+}
+
+.splitnone{
+	width:100%;
+	float:left;
+	text-align:left;
+	color:#999;
+	padding:10px 0px;
+}
 
 
+#animefilter ul{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+/*keep filters in order*/
+#animefilter ul li{
+	list-style-type:none;
+	float@left;
+	display:inline-block;
+	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#2980b9;
+	margin-bottom:20px;
+}
+
+.animeboxwrap{
+	width:100%;
+	float:left;
+	border: 1px solid #d5d5d5;
+}
+
+.animeboxwrap:hover{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.animeboxwrap .title{
+	width:94%;
+	float:right;
+	padding:3%;
+	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
+	font-size:16pt;
+	color:#da640f;
+	text-align:right;
+	position: relative;
+	border-bottom: 1px solid #d5d5d5;
+}
+.animeboxwrap .text{
+	width:94%;
+	float:left;
+	padding:3%;
+	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	color:#7e7e7e;
+	text-align:center;
+	position: relative;
+	border-top: 1px solid #d5d5d5;
+}
+
+.animeboxwrap .title .titlearrow{
+	background-image: url(../images/arrow-down.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10%;
+	bottom: -17px;
+	display:block;
+	width:32px;
+	height:18px;
+}
+
+.animeboxwrap .text .textarrow{
+	background-image: url(../images/arrow-up.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10%;
+	top: -17px;
+	display:block;
+	width:32px;
+	height:18px;
+}
+
+.animeboxwrap img{
+	width:100%;
+	border:0px;
+}
+
+
+
+
+.main{
+	width:21%;
+	padding:10px 2% 10px 2%;
+	float:left;
+	text-align:left;
+	color:#7E7E7E;
+}
+
+.fullpadding{
+	padding:1%;
+	width:98%;
+}
+
+.anime-padding{
+	width:94%;
+	height:100% !important;
+	padding:3%;
+}
 
   .is-animated {
     animation: .6s zoom-in;
