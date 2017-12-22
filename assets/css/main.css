@@ -42,16 +42,9 @@ ul{
 
 /* Anime Names in Text */
 .text {
-  color: #2980b9;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
   text-align: center;
-  font-weight:bold;
-}
 
+}
 /* Number text (1/7 etc) */
 .numbertext {
   color: #2980b9;
@@ -446,34 +439,6 @@ body {
 /************* Buttons Section ****************/
 /**********************************************/
 
-a:link.bluebutton, a:visited.bluebutton{
-  border:1px solid #b85208;
-  background: #35424a;
-  background: -moz-linear-gradient(top, #35424a, #da620b);
-  background: -webkit-gradient(linear,left top, left bottom, from(#35424a), to(#da620b));
-  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#35424a', EndColorStr='#da620b', GradientType=0);
-  color:white;
-}
-
-a:hover.bluebutton{
-  border:1px solid #b85208;
-  background: #2980b9;
-  background: -moz-linear-gradient(top, #2980b9, #da620b);
-  background: -webkit-gradient(linear,left top, left bottom, from(#2980b9), to(#da620b));
-  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#2980b9', EndColorStr='#da620b', GradientType=0);
-  color:white;
-}
-
-.smallrectange{
-	padding: 6px 12px;
-	font-family: sans-serif;
-	text-decoration:none;
-	font-weight:bold;
-	text-shadow:0px 1px 2px #333;
-	box-shadow: 0px 1px 2px #999;
-	font-size:10pt;
-	margin:0px 5px 0px 5px;
-}
 
 
 /**********************************************/
@@ -490,8 +455,6 @@ a:hover.bluebutton{
   text-align:center;
   position:relative;
 }
-
-
 .splitnone{
 	width:100%;
 	float:left;
@@ -499,6 +462,16 @@ a:hover.bluebutton{
 	color:#999;
 	padding:10px 0px;
 }
+.anime-padding{
+	width:94%;
+	height:100% !important;
+	padding:3%;
+}
+.fullpadding{
+	padding:1%;
+	width:98%;
+}
+
 
 #animecontainer{
 	width:100%;
@@ -506,6 +479,7 @@ a:hover.bluebutton{
 	float:left;
 }
 
+}
 #animefilter ul{
 	width:100%;
 	float:left;
@@ -542,7 +516,7 @@ a:hover.bluebutton{
 	float:right;
 	padding:3%;
 	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
-	font-size:16pt;
+	font-size:10pt;
 	color:#da640f;
 	text-align:right;
 	position: relative;
@@ -561,8 +535,6 @@ a:hover.bluebutton{
 }
 
 .animeboxwrap .title .titlearrow{
-	background-image: url(../images/arrow-down.jpg);
-	background-repeat: no-repeat;
 	position: absolute;
 	right: 10%;
 	bottom: -17px;
@@ -571,14 +543,9 @@ a:hover.bluebutton{
 	height:18px;
 }
 
-
-
-
 .animeboxwrap .text .textarrow{
-	background-image: url(../images/arrow-up.png);
-	background-repeat: no-repeat;
 	position: absolute;
-	right: 10%;
+	right: 15%;
 	top: -17px;
 	display:block;
 	width:32px;
@@ -596,17 +563,6 @@ a:hover.bluebutton{
 	float:left;
 	text-align:left;
 	color:#7E7E7E;
-}
-
-.fullpadding{
-	padding:1%;
-	width:98%;
-}
-
-.anime-padding{
-	width:94%;
-	height:100% !important;
-	padding:3%;
 }
 
 
