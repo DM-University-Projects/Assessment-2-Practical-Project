@@ -23,7 +23,9 @@ ul{
 }
 /* finished here*/
 
-/*-------------------------------------------------------------------------------------------------------------*/
+/*****************************************************************************/
+/********************** SlideShow Anime Images *******************************/
+/****************************************************************************/
 /* Anime Index Slideshow container (Refernce - https://www.w3schools.com/w3css/w3css_slideshow.asp) */
 * {box-sizing:border-box}
 .mySlides {display:none}
@@ -43,6 +45,13 @@ ul{
 /* Anime Names in Text */
 .text {
   text-align: center;
+  color: #2980b9;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  font-weight:bold;
 
 }
 /* Number text (1/7 etc) */
@@ -113,8 +122,9 @@ text-align: center;
 
 /* Anime Grid Ends Here*/
 
-/*----------------------------------------------------------------*/
-
+/***************************************************************************/
+/************* Index Page CSS For The Image Responsive Grid ****************/
+/**************************************************************************/
 /* Index Photo grid system (Refernce - Used Different Youtube Links And other
 Futher refencing will be place within the Readme.Md ) */
 * {
@@ -275,50 +285,6 @@ body {
 			display: none;
 		}
 
-		.icon.major {
-			-moz-transform: rotate(-45deg);
-			-webkit-transform: rotate(-45deg);
-			-ms-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			border-radius: 3px;
-			border: solid 2px #fff;
-			display: inline-block;
-			font-size: 1.35em;
-			height: calc(3em + 2px);
-			line-height: 3em;
-			text-align: center;
-			width: calc(3em + 2px);
-		}
-
-			.icon.major:before {
-				-moz-transform: rotate(45deg);
-				-webkit-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
-				display: inline-block;
-				font-size: 1.5em;
-			}
-
-			@media screen and (max-width: 736px) {
-
-				.icon.major {
-					font-size: 1em;
-				}
-
-			}
-
-		.icon.style1 {
-			color: #00ffcc;
-		}
-
-		.icon.style2 {
-			color: #00f0ff;
-		}
-
-		.icon.style3 {
-			color: #76ddff;
-		}
-
     ul.icons {
 			cursor: default;
 			list-style: none;
@@ -435,11 +401,6 @@ body {
 
 		}
 
-/**********************************************/
-/************* Buttons Section ****************/
-/**********************************************/
-
-
 
 /**********************************************/
 /************* Anime.html Page CSS ****************/
@@ -470,32 +431,6 @@ body {
 .fullpadding{
 	padding:1%;
 	width:98%;
-}
-
-
-#animecontainer{
-	width:100%;
-	min-height:500px !important;
-	float:left;
-}
-
-}
-#animefilter ul{
-	width:100%;
-	float:left;
-	margin:0px;
-	padding:0px;
-}
-/*keep filters in order*/
-#animefilter ul li{
-	list-style-type:none;
-	float@left;
-	display:inline-block;
-	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
-	font-size:10pt;
-	color:#2980b9;
-	margin-bottom:20px;
-
 }
 
 .animeboxwrap{
@@ -563,18 +498,4 @@ body {
 	float:left;
 	text-align:left;
 	color:#7E7E7E;
-}
-
-
-#animeintro{
-	width:100%;
-	float:left;
-	min-height:100px;
-	margin-top:-27px;
-}
-
-#anime-wrap{
-	max-width:1000px;
-	float:none;
-	margin:0px auto;
 }
