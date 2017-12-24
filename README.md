@@ -46,8 +46,7 @@ Assessment 2 Marking criteria
 
 #Introduction About The Website
 
-    This is an Anime Blog Website, where people come to view content about about anime, images, videos,
-    and top rated animes. .
+    This is an Anime Blog Website, where people come to view content about  anime, images, videos, and also gaming. They can also come to see what chottoitsanime top rated animes are within a filter list.. .
 
 # Motivation to creating an Anime Social Website
 
