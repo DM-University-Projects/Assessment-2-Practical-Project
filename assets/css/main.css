@@ -503,3 +503,40 @@ Futher refencing will be place within the Readme.Md ) */
   background-color: #2980b9;
   color: white;
 }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 1300px) {
+    .genre {
+        width: 50%;
+    }
+    .row img {
+        width: 100%;
+        margin: 6px 0;
+        max-height: auto;
+    }
+    .content {
+        width: 100%;
+    }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .genre {
+        width: 100%;
+    }
+    .row img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+
+  #myBtnContainer button {
+    border: 0;
+    display: block;
+    line-height: 1.65em;
+    margin: 0;
+    padding: 0.5em 0;
+  }
+
+}
