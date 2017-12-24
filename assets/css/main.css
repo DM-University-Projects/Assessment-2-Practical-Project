@@ -4,8 +4,9 @@ body {
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color: #d4e6f1;
-  margin: 0;}
+  background-image:url('../images/bg.jpg');
+  margin: 0;
+}
 
 /* Global */
 .container{
@@ -434,6 +435,7 @@ Futher refencing will be place within the Readme.Md ) */
 .animeboxwrap img{
  width:  400px;
  height: 300px;
+ cursor: pointer;
 }
 
 .main{
