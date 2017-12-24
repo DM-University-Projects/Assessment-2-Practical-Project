@@ -127,14 +127,6 @@ text-align: center;
 /**************************************************************************/
 /* Index Photo grid system (Refernce - Used Different Youtube Links And other
 Futher refencing will be place within the Readme.Md ) */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial;
-}
 
 .header {
     text-align: center;
@@ -224,19 +216,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-/* Clear Floats */
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
@@ -411,7 +391,7 @@ body {
   width:100%;
   height:auto;
   float:left;
-  margin:15px 0px;
+  margin:13px 0px;
   border:1px solid #d5d5d5;
   text-align:center;
   position:relative;
@@ -437,23 +417,23 @@ body {
 	padding:3%;
 	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
 	font-size:10pt;
+  color:#7e7e7e;
 }
 .animeboxwrap .text{
 	width:94%;
-	float:left;
-	padding:3%;
+	padding:5%;
 	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
-	font-size:12pt;
-	color:#7e7e7e;
-	text-align:center;
+	font-size:10pt;
+	color:#2980b9;
+	text-align:left;
 	position: relative;
 	border-top: 1px solid #d5d5d5;
 }
 
 
 .animeboxwrap img{
-	width:100%;
-	border:0px;
+ width:  400px;
+ height: 300px;
 }
 
 .main{
@@ -462,4 +442,64 @@ body {
 	float:left;
 	text-align:center;
 	color:#7E7E7E;
+
+}
+
+#main-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+#main-wrapper {
+  padding: 6em 0 6em 0;
+}
+
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .genre {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.genre {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover, .active {
+  background-color: #2980b9;
+  color: white;
 }
