@@ -548,7 +548,7 @@ Futher refencing will be place within the Readme.Md ) */
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: calc(120% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
