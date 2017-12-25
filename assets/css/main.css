@@ -423,15 +423,17 @@ Futher refencing will be place within the Readme.Md ) */
 	float:right;
 	padding:3%;
 	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
-	font-size:10pt;
-  color:#7e7e7e;
+	font-size:15pt;
+  color:#2980b9;
+  text-align:center;
+  font-weight:bold;
 }
 .animeboxwrap .text{
 	width:94%;
 	padding:5%;
 	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
 	font-size:10pt;
-	color:#2980b9;
+	color:#35424a;
 	text-align:left;
 	position: relative;
 	border-top: 1px solid #d5d5d5;
@@ -540,15 +542,13 @@ Futher refencing will be place within the Readme.Md ) */
 
 }
 
-
-
 /* main-wrapper */
 
 	#main-wrapper {
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
-		width: calc(120% - 4rem);
+		width: calc(100% - 0rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -582,4 +582,23 @@ Futher refencing will be place within the Readme.Md ) */
 
     input[type=submit]:hover {
         background-color: #2980b9;
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+        .main-wrapper  {
+            width: 100%;
+        }
+
+    }
+    @media screen and (max-width: 480px) {
+
+      #main-wrapper  {
+        border: 0;
+        display: block;
+        line-height: 1.65em;
+        margin: 0;
+        padding: 0.5em 0;
+      }
+
     }

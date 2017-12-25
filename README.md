@@ -52,8 +52,8 @@ Assessment 2 Marking criteria
 
    The Motivation of creating this website is due to my Youtube Channel Called ChootiItsAnime, The website
    contain reviews, rants and any thing related to anime. This website will also be linked to my Youtube channel
-   so that later I can use this website for any business rated ventures that is linked to what I do on youtube.
-   When I say linked I mean some of my youtube content will be shown on the website for the users to watch and
+   so that later I can use this website for any business rated ventures that is linked to what I do on YouTube.
+   When I say linked I mean some of my YouTube content will be shown on the website for the users to watch and
    comment on.
 
 # Implications That I Faced
@@ -67,6 +67,14 @@ Assessment 2 Marking criteria
 
   One problem that I can say annoyed me was implementing a arrow image within the boxes I wanted to filter
   for some reason the arrow would never show, I researched and spend time trying to implement this and to no result. -21/12/2-17
+
+  I've realised that web development isn't has easy has I made it out to be, I've had implications where I couldn't find the proper CSS code for background Images
+  some how while watching a Youtube video on javascript I saw an example and tried it. Worked. Other than that I still haven't found
+  a proper way to use onlick within the js file. Still searching for a proper method.
+
+  Another Problem that I'm facing is that my js code wont work out side the html. I've had this error before where I place a window.onload = function(){ at the top.
+    This had corrected it and it worked. But for some reason today it isn't working. So again I will have to find out how I can get this to work from
+    the js file and not the html.
 
 # Giving Thanks to Dave and Fania
   15/12/2017 - Finally finished all other assignments, some students had multiple subjects to complete depending on what they choose. So I'm glad that this extension was given because it is really going to helped with producing a website that I'm okay with. Thank You!
