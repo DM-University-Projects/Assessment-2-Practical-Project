@@ -114,3 +114,10 @@ Assessment 2 Marking criteria
   In-text: (SitePoint, 2017)
 
   Your Bibliography: SitePoint. (2017). Building a Filtering Component with CSS Animations & jQuery — SitePoint. [online] Available at: https://www.sitepoint.com/building-a-filtering-component-with-css-animations-jquery/ [Accessed 19 Dec. 2017].
+
+
+# Harvard Referencing (HR5)
+
+  In-text: (YouTube, 2017)
+
+  Your Bibliography: YouTube. (2017). 47: Create a Google map in a website | Google API Map | Learn HTML and CSS | HTML tutorial. [online] Available at: https://www.youtube.com/watch?v=9CY0V0JAgNU [Accessed 26 Dec. 2017].

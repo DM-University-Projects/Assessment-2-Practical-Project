@@ -635,13 +635,13 @@ Futher refencing will be place within the Readme.Md ) */
       #chottoitsanimecontainer img{
           width: 100%;
       }
-      .googlemap iframe{
+      #map {
         width: 100%;
     }
   }
 
-      .googlemap iframe {
+      #map {
        width: 100%;
        height: 550px;
-       border: none;
+       border: 1%;
       }
