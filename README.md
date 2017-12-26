@@ -121,3 +121,10 @@ Assessment 2 Marking criteria
   In-text: (YouTube, 2017)
 
   Your Bibliography: YouTube. (2017). 47: Create a Google map in a website | Google API Map | Learn HTML and CSS | HTML tutorial. [online] Available at: https://www.youtube.com/watch?v=9CY0V0JAgNU [Accessed 26 Dec. 2017].
+
+# Harvard Referencing (HR6)
+  Hamburger Menu
+
+  In-text: (CodePen, 2017)
+
+  Your Bibliography: CodePen. (2017). Hamburger Menu - HTML, CSS & jQuery. [online] Available at: https://codepen.io/g13nn/pen/eHGEF [Accessed 26 Dec. 2017].

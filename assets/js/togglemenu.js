@@ -1,3 +1,4 @@
+// # Harvard Referencing (HR6)
 $( document ).ready(function() {
 
 $( ".cross" ).hide();
