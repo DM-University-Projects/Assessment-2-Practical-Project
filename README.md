@@ -3,7 +3,7 @@ Assignment 2: guide and marking criteria
 Assessment 2: practical project
 
     65% of overall marks
-    Deadline: 12pm Friday 15/12/2017 (week 11)
+    Deadline: 12pm Friday 29/12/2017 (week 11)
     Submitted: GitHub URL in text document to Turnitin
 
 Deliverable:
@@ -73,8 +73,8 @@ Assessment 2 Marking criteria
   a proper way to use onlick within the js file. Still searching for a proper method.
 
   Another Problem that I'm facing is that my js code wont work out side the html. I've had this error before where I place a window.onload = function(){ at the top.
-    This had corrected it and it worked. But for some reason today it isn't working. So again I will have to find out how I can get this to work from
-    the js file and not the html.
+  This had corrected it and it worked. But for some reason today it isn't working. So again I will have to find out how I can get this to work from the js file and not the html.
+
 
 # Giving Thanks to Dave and Fania
   15/12/2017 - Finally finished all other assignments, some students had multiple subjects to complete depending on what they choose. So I'm glad that this extension was given because it is really going to helped with producing a website that I'm okay with. Thank You!
