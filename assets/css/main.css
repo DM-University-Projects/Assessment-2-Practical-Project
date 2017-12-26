@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
-
+@import url(nav.css);
 /*-------------------------------------------------------------------------------------*/
 /* main-wrapper Index body*/
 body {
@@ -42,7 +42,7 @@ ul{
 
 /* this is to set the width of the slide*/
 .mySlides img {
-    max-height: auto;
+    max-height: 100%;
     width: 100%;
     cursor: pointer;
 }
@@ -138,11 +138,23 @@ Futher refencing will be place within the Readme.Md ) */
     padding: 32px;
 }
 
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
     width: 25%;
     padding: 10px;
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
 .column img {
@@ -150,9 +162,11 @@ Futher refencing will be place within the Readme.Md ) */
     width: 100%;
     cursor: pointer;
     transition: 0.3s;
+    vertical-align: middle;
 }
 
 .column img:hover {opacity: 0.7;}
+
 
 /* The Modal (background) */
 .modal {
@@ -227,6 +241,9 @@ Futher refencing will be place within the Readme.Md ) */
 @media (max-width: 800px) {
     .column {
         width: 50%;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
     .row {
         width: 100%;
@@ -241,6 +258,9 @@ Futher refencing will be place within the Readme.Md ) */
 @media (max-width: 600px) {
     .column {
         width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
     .row {
         width: 100%;
