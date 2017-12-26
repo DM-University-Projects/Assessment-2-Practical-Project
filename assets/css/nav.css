@@ -14,13 +14,7 @@ header a{
   text-transform: uppercase;
   font-size:16px;
 }
-nav ul{
--webkit-transition: max-height 0.4s;
--ms-transition: max-height 0.4s;
--moz-transition: max-height 0.4s;
--o-transition: max-height 0.4s;
-transition: max-height 0.4s;
-}
+
 header li{
   float:left;
   display:inline;
@@ -50,25 +44,15 @@ header a:hover{
   font-weight:bold;
 }
 
-.handle {
-  width: 100%;
-  background:#2980b9;
-  text-alight: left;
-  box-sizing: border-box;
-  padding: 0 15px 0 15px;
-  cursor: pointer;
-  color: white;
-  display: none;
-  font-weight:bold;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
-}
+
 @media screen and (max-width: 600px){
       nav ul{
         max-height: 0;
       }
-      .handle-menu{
+      .hamburger{
+        max-height: 20em;
+      }
+      .cross{
         max-height: 20em;
       }
       header nav ul li{
@@ -77,9 +61,14 @@ header a:hover{
       padding: 15px;
       text-align: left;
     }
-      .handle{
-        display:block;
-
-      }
 
     }
+
+     /* @media screen and (min-width: 480px) {
+  .hamburger {
+    display: none;
+  }
+  .cross {
+    display: none;
+  }
+} */
