@@ -404,3 +404,83 @@
     			}
 
     		}
+
+
+  /* Banner */
+
+  	#banner {
+  		-moz-align-items: center;
+  		-webkit-align-items: center;
+  		-ms-align-items: center;
+  		align-items: center;
+  		display: -moz-flex;
+  		display: -webkit-flex;
+  		display: -ms-flex;
+  		display: flex;
+  		-moz-justify-content: center;
+  		-webkit-justify-content: center;
+  		-ms-justify-content: center;
+  		justify-content: center;
+  		padding: 8em 4em 6em 4em;
+  		min-height: 70vh;
+  		background-image: url("../../images/banner.jpg");
+  		background-position: center;
+  		background-size: cover;
+  		background-repeat: no-repeat;
+  		border-top: 0;
+  		position: relative;
+  		text-align: center;
+  		overflow: hidden;
+  	}
+
+    #banner .inner {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  #banner h1 {
+    color: #fff;
+    font-size: 5em;
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+    margin: 0;
+  }
+
+    @media screen and (max-width: 980px) {
+
+      #banner h1 {
+        font-size: 5em;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #banner h1 {
+        font-size: 3em;
+      }
+
+    }
+
+  #banner p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+
+    @media screen and (max-width: 980px) {
+
+      #banner p {
+        font-size: 1.5em;
+      }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      #banner p {
+        font-size: 1.25em;
+      }
+
+    }
