@@ -146,5 +146,29 @@ $( ".hamburger" ).show();
 
 
 
+	var sound = true;
+
+	function muter() {
+	    if (sound === true) {
+	        $("video").prop('muted', true);
+	        sound = false;
+	        $('button');
+	    } else {
+	        $("video").prop('muted', false);
+	        sound = true;
+	        $('button');
+	    }
+	}
+
+	$(".speaker").click(function(e) {
+	  e.preventDefault();
+
+	  $(this).toggleClass("mute");
+	});
+
+
+
+
+
 
 })(jQuery);

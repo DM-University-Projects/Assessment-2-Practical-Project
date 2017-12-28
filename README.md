@@ -136,3 +136,13 @@ Assessment 2 Marking criteria
   In-text: (CodePen, 2017)
 
   Your Bibliography: CodePen. (2017). Floating Back to Top Button with Smooth Scroll using CSS & JQuey. [online] Available at: https://codepen.io/desirecode/pen/MJPJqV [Accessed 28 Dec. 2017].
+
+
+# Harvard Referencing (HR8)
+
+    tag?, H.
+    how to mute Audio/video in website onload for any tag?
+
+    In-text: (tag?, 2017)
+
+    Your Bibliography: tag?, h. (2017). how to mute Audio/video in website onload for any tag?. [online] Stackoverflow.com. Available at: https://stackoverflow.com/questions/31593766/how-to-mute-audio-video-in-website-onload-for-any-tag/31593935#31593935 [Accessed 28 Dec. 2017].
