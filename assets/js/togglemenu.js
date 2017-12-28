@@ -152,20 +152,18 @@ $( ".hamburger" ).show();
 	    if (sound === true) {
 	        $("video").prop('muted', true);
 	        sound = false;
-	        $('button');
+	        $('.speaker');
 	    } else {
 	        $("video").prop('muted', false);
 	        sound = true;
-	        $('button');
+	        $('.speaker');
 	    }
 	}
 
-	$(".speaker").click(function(e) {
-	  e.preventDefault();
-
-	  $(this).toggleClass("mute");
+	$('.speaker').click(function(){
+	    muter();
+		$(this).toggleClass('mute');
 	});
-
 
 
 

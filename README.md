@@ -146,3 +146,9 @@ Assessment 2 Marking criteria
     In-text: (tag?, 2017)
 
     Your Bibliography: tag?, h. (2017). how to mute Audio/video in website onload for any tag?. [online] Stackoverflow.com. Available at: https://stackoverflow.com/questions/31593766/how-to-mute-audio-video-in-website-onload-for-any-tag/31593935#31593935 [Accessed 28 Dec. 2017].
+
+    Pens tagged 'mute button' on CodePen
+
+    In-text: (Codepen.io, 2017)
+
+    Your Bibliography: Codepen.io. (2017). Pens tagged 'mute button' on CodePen. [online] Available at: https://codepen.io/tag/mute%20button/# [Accessed 28 Dec. 2017].
