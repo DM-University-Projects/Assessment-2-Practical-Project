@@ -128,3 +128,11 @@ Assessment 2 Marking criteria
   In-text: (CodePen, 2017)
 
   Your Bibliography: CodePen. (2017). Hamburger Menu - HTML, CSS & jQuery. [online] Available at: https://codepen.io/g13nn/pen/eHGEF [Accessed 26 Dec. 2017].
+
+
+# Harvard Referencing (HR7)
+
+  Floating Back to Top Button with Smooth Scroll using CSS & JQuey
+  In-text: (CodePen, 2017)
+
+  Your Bibliography: CodePen. (2017). Floating Back to Top Button with Smooth Scroll using CSS & JQuey. [online] Available at: https://codepen.io/desirecode/pen/MJPJqV [Accessed 28 Dec. 2017].
