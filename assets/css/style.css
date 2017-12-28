@@ -615,9 +615,9 @@ a:hover {
 
   }
 
-  /**********************************************/
-  /************* Banner Speaker ****************/
-  /**********************************************/
+/***************************************************************************/
+/*****Banner Speaker - Referencing # Harvard Referencing (HR8)**************/
+/**************************************************************************/
 
   .speaker {
     height: 30px;
@@ -625,6 +625,7 @@ a:hover {
     position: relative;
     overflow: hidden;
     display: inline-block;
+    cursor:pointer;
   }
   .speaker span {
     display: block;
