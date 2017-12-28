@@ -152,3 +152,32 @@ Assessment 2 Marking criteria
     In-text: (Codepen.io, 2017)
 
     Your Bibliography: Codepen.io. (2017). Pens tagged 'mute button' on CodePen. [online] Available at: https://codepen.io/tag/mute%20button/# [Accessed 28 Dec. 2017].
+
+# Harvard Referencing (HR8 Problems)
+
+    This mute button gave me some trouble. If you notice from the link, the code and whats in the actually website is similar but different,
+    I had to mess around with different type of codes to get an understand of the overall js and how it works. With the help of youtube and
+    many different web developing sites. This was possible.
+
+# Harvard Referencing (HR9)
+
+    Hamburger Menu - HTML, CSS & jQuery
+
+    In-text: (CodePen, 2017)
+
+    Your Bibliography: CodePen. (2017). Hamburger Menu - HTML, CSS & jQuery. [online] Available at: https://codepen.io/g13nn/pen/eHGEF [Accessed 28 Dec. 2017].
+
+
+# Harvard Referencing (HR9 Adapting)
+
+    With the hamburger menu and many other implementations I had to research different codes, watch different Youtube videos to gain
+    and understanding so that I could change the code it self. Some where quiet easy and understandable, change something, see what it
+    does and implement on that visual knowledge. Majority of this website was created by using that method to learn and understand.
+
+# Harvard Referencing (HR10)
+
+    W3.CSS Slideshow
+
+    In-text: (W3schools.com, 2017)
+
+    Your Bibliography: W3schools.com. (2017). W3.CSS Slideshow. [online] Available at: https://www.w3schools.com/w3css/w3css_slideshow.asp [Accessed 28 Dec. 2017].

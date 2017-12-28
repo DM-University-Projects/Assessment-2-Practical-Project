@@ -1,4 +1,6 @@
 window.onload = function(){
+  // This allows the image to Change every 2.5 seconds
+  // # Harvard Referencing (HR10)
   var slideIndex = 0;
   showSlides();
 
@@ -16,7 +18,8 @@ window.onload = function(){
       }
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+      setTimeout(showSlides, 2500);
+      // This allows the image to Change every 2.5 seconds
   }
 };
 
@@ -46,6 +49,7 @@ window.onload = function(){
 
 };
 
+// this filter i can say gave me the most problems. 
 filterSelection("all")
   function filterSelection(c) {
     var x, i;
