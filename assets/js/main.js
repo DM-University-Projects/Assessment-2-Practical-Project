@@ -49,7 +49,7 @@ window.onload = function(){
 
 };
 
-// this filter i can say gave me the most problems. 
+// this filter i can say gave me the most problems.
 filterSelection("all")
   function filterSelection(c) {
     var x, i;

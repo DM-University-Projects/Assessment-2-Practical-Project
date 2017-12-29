@@ -129,6 +129,16 @@ text-align: center;
   text-align: center;
 }
 
+#animegrid2{
+  padding:0px;
+  color:#ffffff;
+  background:#2980b9;
+}
+
+#animegrid2 h1{
+  text-align: center;
+}
+
 /* Anime Grid Ends Here*/
 
 /***************************************************************************/
