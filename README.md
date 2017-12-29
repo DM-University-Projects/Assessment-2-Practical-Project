@@ -199,3 +199,4 @@ Assessment 2 Marking criteria
 #Testing
 
   Testing was done by my girlfriend and nice on the larger screen. The mobile resting was done via iphone 6s screen record.
+  Date29/12/2017 - Time: 11:57pm
