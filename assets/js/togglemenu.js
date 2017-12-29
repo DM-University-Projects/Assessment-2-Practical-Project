@@ -36,6 +36,8 @@ $(document).ready(function() {
    $body = $('body');
 
   // Disable animations/transitions until the page has loaded.
+  // Just to inform. I made sure to understand every jquery, i also changed most
+  //of the jquery from the original code. If i cant transform it to js. I use it and make it my own
   $body.addClass('is-loading');
 
   $window.on('load', function() {

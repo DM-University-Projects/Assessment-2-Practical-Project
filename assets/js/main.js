@@ -52,6 +52,7 @@ for (i = 0; i < images.length; i++) {
 };
 
 // this filter i can say gave me the most problems.
+// Harvard Referencing (HR2)
 filterSelection("all")
 
 function filterSelection(c) {

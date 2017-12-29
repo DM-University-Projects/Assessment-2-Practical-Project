@@ -16,8 +16,14 @@
 								<!-- This is to link to the stylesheet css folder -->
 							</head>
 							<body>
+
+
 								<!-- Header -->
 								<header>
+									<button class="translate" id="en">English</button>
+									<button class="translate" id="jp">Japanese</button>
+									<button class="translate" id="sp">Spanish</button>
+									<button class="translate" id="fr">French</button>
 									<main class="container">
 										<main id="youtubename">
 											<!-- This class is to keep everything within the middle and from aligning to the left -->
@@ -31,19 +37,21 @@
 											<button class="hamburger">&#9776;</button>
 											<button class="cross">&#735;</button>
 											<main class="menu">
+
+
 												<ul>
 													<!-- This is an unloaded list which is used for menu's-->
 													<li class="current">
-														<a href="index.html">Home</a>
+														<a href="index.html" class="lang" key="home">Home</a>
 													</li>
 													<li>
-														<a href="anime.html">Anime</a>
+														<a href="anime.html" class="lang" key="anime">Anime</a>
 													</li>
 													<li>
-														<a href="youtube.html">Youtube</a>
+													 <a href="youtube.html" class="lang" key="youtube">Youtube</a>
 													</li>
 													<li>
-														<a href="about.html">About</a>
+													 <a href="about.html" class="lang" key="about">About</a>
 													</li>
 												</ul>
 											</main>
@@ -56,18 +64,18 @@
 										<a href="#" class="speaker">
 											<span></span>
 										</a>
+
 										<h1>ChottoItsAnime</h1>
-										<p>Where Anime & Gaming brings out the best in one's Imagination
+										<p class="lang" key="chottolan1">Where Anime & Gaming brings out the best in ones Imagination
 										</P>
-										<p>Please
-											<a href="https://youtube.com/chottoitsanime">Subscribe</a> and Enjoy.
+										<p class="lang" key="chottolan2">Please Subscribe and Enjoy
 										</p>
 										<a href="#youtubemain" class="more"></a>
 									</main>
 								</section>
 								<section id="animegrid">
 									<main class="container">
-										<h1>Welcome To ChottoItsAnime</h1>
+										<h1 class="lang" key="chottolan3"> Welcome To ChottoItsAnime</h1>
 									</main>
 								</section>
 								<main id="youtubemain">
@@ -122,7 +130,7 @@
 									</section>
 									<section id="animegrid2">
 										<main class="container">
-											<h1>Best Anime Image</h1>
+											<h1 class="lang" key="chottolan4">Best Anime Image</h1>
 										</main>
 									</section>
 									<section>
@@ -235,5 +243,90 @@
 								<script src="assets/js/util.js"></script>
 								<script src="assets/js/togglemenu.js"></script>
 								<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+								<script>
+								var arrLang = {
+								'en' : {
+								'home' : 'Home',
+								'anime' : 'Anime',
+								'youtube' : 'Youtube',
+								'about' : 'About',
+								},
+								'jp' : {
+								'home' : 'ホーム',
+								'anime' : 'アニメ',
+								'youtube' : 'Youtube',
+								'about' : '約'
+								},
+								'sp': {
+								'home' :'Casa',
+								'anime':'Animado',
+								'youtube':'Youtube',
+								'about':'Acerca de'
+								},
+
+								'fr': {
+								'home' :'Accueil',
+								'anime':'Animé',
+								'youtube':'Youtube',
+								'about':'Sur'
+							},
+
+							'jp': {
+							'chottolan1' : 'アニメ＆ゲームが想像力を最大限に引き出す場所',
+							'chottolan2' : '購読してお楽しみください。',
+							'chottolan3' : 'うぇｌこめ と ちょっといつぁにめ',
+							'chottolan4' : 'ベストアニメ画像'
+						  },
+
+							'en': {
+							'chottolan1' : 'Where Anime & Gaming brings out the best in ones Imagination',
+							'chottolan2' : 'Please Subscribe and Enjoy',
+							'chottolan3' : 'Welcome To ChottoItsAnime',
+							'chottolan4' : 'Best Anime Image'
+						  },
+
+							'sp': {
+							'chottolan1' : 'Donde Anime & Gaming saca lo mejor de la imaginación',
+							'chottolan2' : 'Por favor suscríbete y disfruta',
+							'chottolan3' : 'Bien pelusa y un poco cuando se trata de',
+							'chottolan4' : 'Mejor imagen de Anime'
+						 },
+
+						'fr': {
+						'chottolan1' : 'Où Anime & Gaming fait ressortir le meilleur de limagination',
+						'chottolan2' : 'S il vous plaît vous abonner et profiter',
+						'chottolan3' : 'Eh bien beaucoup et un peu quand tante',
+						'chottolan4' : 'Meilleure image d anime'
+						}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								};
+
+								$(function(){
+								$('.translate').click(function(){
+								  var lang = $(this).attr('id');
+
+									$('.lang').each(function(index, element){
+										$(this).text(arrLang[lang][$(this).attr('key')]);
+									});
+								});
+								});
+
+								</script>
+
 							</body>
 						</html>
