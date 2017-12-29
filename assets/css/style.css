@@ -18,7 +18,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
  		line-height: 1.65;
 
 }
-@media screen and (max-width: 1680px) {
+@media screen and (min-width: 1680px) {
 
   .thumbnails body {
     font-size: 11pt;
@@ -26,7 +26,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
 
   .thumbnails body {
     font-size: 11pt;
@@ -34,7 +34,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 980px) {
 
   .thumbnails body {
     font-size: 12pt;
@@ -42,7 +42,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (min-width: 736px) {
 
   .thumbnails body {
     font-size: 12pt;
@@ -50,7 +50,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
 
   .thumbnails body {
     font-size: 12pt;
@@ -172,7 +172,7 @@ a:hover {
 			width: 100% !important;
 		}
 
-			@media screen and (max-width: 480px) {
+			@media screen and (min-width: 480px) {
 
 				.box .inner {
 					padding: 1em;
@@ -272,13 +272,6 @@ a:hover {
     			display: block;
     		}
 
-    		.image.left, .image.right {
-    			max-width: 40%;
-    		}
-
-    			.image.left img, .image.right img {
-    				width: 100%;
-    			}
 
     		.image.left {
     			float: left;
@@ -319,7 +312,7 @@ a:hover {
 		padding: 4em 0 2em 0;
 	}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (min-width: 736px) {
 
 			#youtubemain {
 				padding: 3em 0 1em 0;
@@ -333,7 +326,7 @@ a:hover {
 			margin: 0 auto;
 		}
 
-			@media screen and (max-width: 480px) {
+			@media screen and (min-width: 480px) {
 
 				#youtubemain .inner {
 					width: 95%;
@@ -383,7 +376,7 @@ a:hover {
     margin: 0;
   }
 
-    @media screen and (max-width: 980px) {
+    @media screen and (min-width: 980px) {
 
       #banner h1 {
         font-size: 5em;
@@ -405,7 +398,7 @@ a:hover {
     font-weight: 300;
   }
 
-    @media screen and (max-width: 980px) {
+    @media screen and (min-width: 980px) {
 
       #banner p {
         font-size: 1.5em;
@@ -413,7 +406,7 @@ a:hover {
 
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 500px) {
 
       #banner p {
         font-size: 1.25em;
@@ -492,7 +485,8 @@ a:hover {
 			width: 100%;
 			z-index: 1;
 		}
-
+/* here i used max-width because i wanted the video to play when on larger
+   screen and not smaller screens*/
 		@media screen and (max-width: 1280px) {
 
 			#banner video {
@@ -501,7 +495,7 @@ a:hover {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (min-width: 600px) {
 
 			#banner br {
 				display: none;
@@ -607,7 +601,7 @@ a:hover {
   background-color: #8f6bc9;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
 
     .button {
       padding: 0;

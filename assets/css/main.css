@@ -112,7 +112,7 @@ text-align: center;
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 500px) {
   .text {font-size: 11px}
 }
 
@@ -317,7 +317,7 @@ Futher refencing will be place within the Readme.Md ) */
 					padding-right: 3.5em;
 				}
 
-					@media screen and (max-width: 736px) {
+					@media screen and (min-width: 900px) {
 
 						ul.icons.major li {
 							padding: 0 1em !important;
@@ -384,7 +384,7 @@ Futher refencing will be place within the Readme.Md ) */
 						color: #fff;
 					}
 
-				@media screen and (max-width: 480px) {
+				@media screen and (min-width: 500px) {
 
 					#footer .copyright li {
 						border: 0;
@@ -396,7 +396,7 @@ Futher refencing will be place within the Readme.Md ) */
 
 				}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (min-width: 900px) {
 
 			#footer {
 				padding: 4em 3em 2em 3em ;
@@ -404,7 +404,7 @@ Futher refencing will be place within the Readme.Md ) */
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (min-width: 736px) {
 
 			#footer {
 				padding: 3em 2em 1em 2em ;
@@ -515,17 +515,7 @@ Futher refencing will be place within the Readme.Md ) */
         width: 100%;
     }
 }
-@media screen and (max-width: 480px) {
 
-  #myBtnContainer button {
-    border: 0;
-    display: block;
-    line-height: 1.65em;
-    margin: 0;
-    padding: 0.5em 0;
-  }
-
-}
 
 /**********************************************/
 /************* About.html Page CSS ****************/
@@ -573,7 +563,7 @@ Futher refencing will be place within the Readme.Md ) */
         background-color: #2980b9;
     }
 
-    @media (max-width: 800px){
+    @media (min-width: 800px){
       #chottoitsanimecontainer img{
           width: 100%;
 
@@ -587,7 +577,7 @@ Futher refencing will be place within the Readme.Md ) */
             width: 100%;
     }
   }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 500px) {
 
       #main-wrapper {
         border: 0;
@@ -620,7 +610,7 @@ Futher refencing will be place within the Readme.Md ) */
         cursor:pointer;
     	}
 
-      @media screen and (max-width: 1680px) {
+      @media screen and (min-width: 900px) {
 
       			body {
       				font-size: 11pt;
@@ -628,7 +618,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (max-width: 1280px) {
+      		@media screen and (min-width: 900px) {
 
       			body {
       				font-size: 11pt;
@@ -636,7 +626,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (max-width: 980px) {
+      		@media screen and (min-width: 900px) {
 
       			body {
       				font-size: 12pt;
@@ -644,7 +634,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (max-width: 736px) {
+      		@media screen and (min-width: 736px) {
 
       			body {
       				font-size: 12pt;
@@ -652,7 +642,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (max-width: 480px) {
+      		@media screen and (min-width: 500px) {
 
       			body {
       				font-size: 12pt;
