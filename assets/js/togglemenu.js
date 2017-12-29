@@ -1,169 +1,173 @@
 // # Harvard Referencing (HR6)
-$( document ).ready(function() {
+$(document).ready(function() {
 
-$( ".cross" ).hide();
-$( ".menu" ).hide();
-$( ".hamburger" ).click(function() {
-$( ".menu" ).slideToggle( "slow", function() {
-$( ".hamburger" ).hide();
-$( ".cross" ).show();
-});
-});
+ $(".cross").hide();
+ $(".menu").hide();
+ $(".hamburger").click(function() {
+  $(".menu").slideToggle("slow", function() {
+   $(".hamburger").hide();
+   $(".cross").show();
+  });
+ });
 
-$( ".cross" ).click(function() {
-$( ".menu" ).slideToggle( "slow", function() {
-$( ".cross" ).hide();
-$( ".hamburger" ).show();
-});
-});
+ $(".cross").click(function() {
+  $(".menu").slideToggle("slow", function() {
+   $(".cross").hide();
+   $(".hamburger").show();
+  });
+ });
 
 });
 
 // # Harvard Referencing (HR)
 (function($) {
 
-	skel.breakpoints({
-		xlarge:	'(max-width: 1680px)',
-		large:	'(max-width: 1280px)',
-		medium:	'(max-width: 980px)',
-		small:	'(max-width: 736px)',
-		xsmall:	'(max-width: 480px)'
-	});
+ skel.breakpoints({
+  xlarge: '(max-width: 1680px)',
+  large: '(max-width: 1280px)',
+  medium: '(max-width: 980px)',
+  small: '(max-width: 736px)',
+  xsmall: '(max-width: 480px)'
+ });
 
-	$(function() {
+ $(function() {
 
-		var $window = $(window),
-			$body = $('body');
+  var $window = $(window),
+   $body = $('body');
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+  // Disable animations/transitions until the page has loaded.
+  $body.addClass('is-loading');
 
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+  $window.on('load', function() {
+   window.setTimeout(function() {
+    $body.removeClass('is-loading');
+   }, 100);
+  });
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+  // Fix: Placeholder polyfill.
+  $('form').placeholder();
 
-		// Banner.
-			var $banner = $('#banner');
+  // Banner.
+  var $banner = $('#banner');
 
-			if ($banner.length > 0) {
+  if ($banner.length > 0) {
 
-				// IE fix.
-					if (skel.vars.IEVersion < 12) {
+   // IE fix.
+   if (skel.vars.IEVersion < 12) {
 
-						$window.on('resize', function() {
+    $window.on('resize', function() {
 
-							var wh = $window.height() * 0.60,
-								bh = $banner.height();
+     var wh = $window.height() * 0.60,
+      bh = $banner.height();
 
-							$banner.css('height', 'auto');
+     $banner.css('height', 'auto');
 
-							window.setTimeout(function() {
+     window.setTimeout(function() {
 
-								if (bh < wh)
-									$banner.css('height', wh + 'px');
+      if (bh < wh)
+       $banner.css('height', wh + 'px');
 
-							}, 0);
+     }, 0);
 
-						});
+    });
 
-						$window.on('load', function() {
-							$window.triggerHandler('resize');
-						});
+    $window.on('load', function() {
+     $window.triggerHandler('resize');
+    });
 
-					}
+   }
 
-				// Video check.
-					var video = $banner.data('video');
+   // Video check.
+   var video = $banner.data('video');
 
-					if (video)
-						$window.on('load.banner', function() {
+   if (video)
+    $window.on('load.banner', function() {
 
-							// Disable banner load event (so it doesn't fire again).
-								$window.off('load.banner');
+     // Disable banner load event (so it doesn't fire again).
+     $window.off('load.banner');
 
-							// Append video if supported.
-								if (!skel.vars.mobile
-								&&	!skel.breakpoint('large').active
-								&&	skel.vars.IEVersion > 9)
-									$banner.append('<video autoplay loop><source src="' + video + '.mp4" type="video/mp4" /><source src="' + video + '.webm" type="video/webm" /></video>');
+     // Append video if supported.
+     if (!skel.vars.mobile && !skel.breakpoint('large').active && skel.vars.IEVersion > 9)
+      $banner.append('<video autoplay loop><source src="' + video + '.mp4" type="video/mp4" /><source src="' + video + '.webm" type="video/webm" /></video>');
 
-						});
+    });
 
-				// More button.
-					$banner.find('.more')
-						.addClass('scrolly');
+   // More button.
+   $banner.find('.more')
+    .addClass('scrolly');
 
-			}
+  }
 
-		// Scrolly.
-			$('.scrolly').scrolly();
+  // Scrolly.
+  $('.scrolly').scrolly();
 
-		// Poptrox.
-			$window.on('load', function() {
+  // Poptrox.
+  $window.on('load', function() {
 
-				var $thumbs = $('.thumbnails');
+   var $thumbs = $('.thumbnails');
 
-				if ($thumbs.length > 0)
-					$thumbs.poptrox({
-						onPopupClose: function() { $body.removeClass('is-covered'); },
-						onPopupOpen: function() { $body.addClass('is-covered'); },
-						baseZIndex: 10001,
-						useBodyOverflow: false,
-						overlayColor: '#222226',
-						overlayOpacity: 0.75,
-						popupLoaderText: '',
-						fadeSpeed: 500,
-						usePopupDefaultStyling: false,
-						windowMargin: (skel.breakpoint('small').active ? 5 : 50)
-					});
+   if ($thumbs.length > 0)
+    $thumbs.poptrox({
+     onPopupClose: function() {
+      $body.removeClass('is-covered');
+     },
+     onPopupOpen: function() {
+      $body.addClass('is-covered');
+     },
+     baseZIndex: 10001,
+     useBodyOverflow: false,
+     overlayColor: '#222226',
+     overlayOpacity: 0.75,
+     popupLoaderText: '',
+     fadeSpeed: 500,
+     usePopupDefaultStyling: false,
+     windowMargin: (skel.breakpoint('small').active ? 5 : 50)
+    });
 
-			});
+  });
 
-		// Initial scroll.
-			$window.on('load', function() {
-				$window.trigger('scroll');
-			});
+  // Initial scroll.
+  $window.on('load', function() {
+   $window.trigger('scroll');
+  });
 
-	});
+ });
 
-// Scroll to the top # Harvard Referencing (HR7).
-	$(window).scroll(function(){
-			if ($(this).scrollTop() > 100) {
-					$('#scroll').fadeIn();
-			} else {
-					$('#scroll').fadeOut();
-			}
-	});
-	$('#scroll').click(function(){
-			$("html, body").animate({ scrollTop: 0 }, 600);
-			return false;
-	});
+ // Scroll to the top # Harvard Referencing (HR7).
+ $(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+   $('#scroll').fadeIn();
+  } else {
+   $('#scroll').fadeOut();
+  }
+ });
+ $('#scroll').click(function() {
+  $("html, body").animate({
+   scrollTop: 0
+  }, 600);
+  return false;
+ });
 
 
 
-	var sound = true;
+ var sound = true;
 
-	function muter() {
-	    if (sound === true) {
-	        $("video").prop('muted', true);
-	        sound = false;
-	        $('.speaker');
-	    } else {
-	        $("video").prop('muted', false);
-	        sound = true;
-	        $('.speaker');
-	    }
-	}
+ function muter() {
+  if (sound === true) {
+   $("video").prop('muted', true);
+   sound = false;
+   $('.speaker');
+  } else {
+   $("video").prop('muted', false);
+   sound = true;
+   $('.speaker');
+  }
+ }
 
-	$('.speaker').click(function(){
-	    muter();
-		$(this).toggleClass('mute');
-	});
+ $('.speaker').click(function() {
+  muter();
+  $(this).toggleClass('mute');
+ });
 
 
 
