@@ -191,4 +191,11 @@ Assessment 2 Marking criteria
 
     With this code I changed it around to be able to used in other places.
 
+
+# Harvard Referencing (HR12)
+
+  langauge change - www.youtube.com - https://www.youtube.com/watch?v=KuZ3OMfP_Pk
+
 #Testing
+
+  Testing was done by my girlfriend and nice on the larger screen. The mobile resting was done via iphone 6s screen record.
