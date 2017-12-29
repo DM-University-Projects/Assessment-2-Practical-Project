@@ -86,7 +86,7 @@ ul{
 
 /* this is to center the dots under the slide*/
 #dot{
-text-align: center;
+text-align : center;
 }
 
 .active {
@@ -95,25 +95,24 @@ text-align: center;
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+animation-name : fade;
+animation-duration : 3.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {
+    opacity : 0.4000000059604644775390625;
+}
+to {
+  opacity : 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (min-width: 500px) {
-  .text {font-size: 11px}
+@media only screen and (min-width:500px) {
+.text {
+font-size : 11px;
+  }
 }
 
 /*-----------------------------------------------------------------------*/
@@ -153,9 +152,7 @@ Futher refencing will be place within the Readme.Md ) */
 }
 
 .row {
-    display: -ms-flexbox; /* IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
 }
@@ -165,7 +162,6 @@ Futher refencing will be place within the Readme.Md ) */
     float: left;
     width: 25%;
     padding: 10px;
-    -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
@@ -219,18 +215,17 @@ Futher refencing will be place within the Readme.Md ) */
 
 /* Add Animation */
 .modal-content, #caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
+  animation-name : zoom;
+  animation-duration : 0.6s;
 }
-@-webkit-keyframes zoom {
-    from {-webkit-transform: scale(0)}
-    to {-webkit-transform: scale(1)}
-}
+
 @keyframes zoom {
-    from {transform: scale(0.1)}
-    to {transform: scale(1)}
+    from {
+  transform : scale(0.1);
+  }
+    to {
+  transform : scale(1);
+  }
 }
 /* The Close Button */
 .close {
@@ -243,8 +238,7 @@ Futher refencing will be place within the Readme.Md ) */
     transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -254,10 +248,9 @@ Futher refencing will be place within the Readme.Md ) */
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .column {
-        width: 50%;
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
+      width : 50%;
+      flex : 50%;
+      max-width : 50%;
     }
     .row {
         width: 100%;
@@ -271,11 +264,10 @@ Futher refencing will be place within the Readme.Md ) */
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column {
-        width: 100%;
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
+    width : 100%;
+    flex : 100%;
+    max-width : 100%;
+  }
     .row {
         width: 100%;
     }
@@ -292,12 +284,10 @@ Futher refencing will be place within the Readme.Md ) */
 	}
 
 		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
+      font-family : FontAwesome;
+      font-style : normal;
+      font-weight : normal;
+      text-transform : none !important ;
 		}
 
 		.icon > .label {
@@ -339,16 +329,14 @@ Futher refencing will be place within the Readme.Md ) */
 /**********************************************/
 
 	#footer {
-		padding: 1em 0 1em 0 ;
-		background-color: #35424a;
-		text-align: center;
-    color:#ffffff;
-    border-bottom:#2980b9 3px solid;
-    border-top:#2980b9 3px solid;
-    box-shadow:0px -1px 5px #d0cfcf;
-    clear: both;
-    position:bottom;
-
+    padding : 1em 0 1em 0;
+    background-color : #35424a;
+    text-align : center;
+    color : #ffffff;
+    border-bottom : 3px solid #2980b9;
+    border-top : 3px solid #2980b9;
+    box-shadow : 0 -1px 5px #d0cfcf;
+    clear : both;
   }
 
 		#footer .icons {
@@ -428,16 +416,15 @@ Futher refencing will be place within the Readme.Md ) */
 /**********************************************/
   /* full width*/
 .boxes-full{
-  background-color:white;
-  width:100%;
-  height:auto;
-  float:left;
-  margin:13px 0px;
-  border:1px solid #d5d5d5;
-  text-align:center;
-  position:relative;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+  background-color : white;
+  width : 100%;
+  height : auto;
+  float : left;
+  margin : 13px 0;
+  border : #d5d5d5 solid 1px;
+  text-align : center;
+  position : relative;
+  opacity : 0.60000002384185791015625;
 }
 
 .boxes-full  {
@@ -445,8 +432,7 @@ Futher refencing will be place within the Readme.Md ) */
 }
 
 /* Add padding BETWEEN each column */
-.row,
-.row > .genre {
+.row, .row > .genre {
     padding: 8px;
 }
 
@@ -477,19 +463,19 @@ Futher refencing will be place within the Readme.Md ) */
 
 /* Style the buttons */
 .btn {
-  background-color: #70c7be;
-  border-radius: 4px;
-  border: 0;
-  color: #ffffff !important;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  height: 2.85em;
-  line-height: 2.95em;
-  padding: 0 1.5em;
-  text-align: center;
-  text-decoration: none;
-  white-space: nowrap;
+  background-color : #70c7be;
+  border-radius : 4px;
+  border : 0;
+  color : #ffffff !important;
+  cursor : pointer;
+  display : inline-block;
+  font-weight : 400;
+  height : 2.85em;
+  line-height : 2.95em;
+  padding : 0 1.5em;
+  text-align : center;
+  text-decoration : none;
+  white-space : nowrap;
 }
 
 .btn:hover, .active {
@@ -503,12 +489,11 @@ Futher refencing will be place within the Readme.Md ) */
         width: 50%;
     }
     .row img {
-        width: 100%;
-        margin: 6px 0;
-        max-height: auto;
+        width : 100%;
+        margin : 6px 0;
     }
     .content {
-        width: 100%;
+        width : 100%;
     }
 
 
@@ -519,10 +504,10 @@ Futher refencing will be place within the Readme.Md ) */
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .genre {
-        width: 100%;
+        width : 100%;
     }
     .row img{
-        width: 100%;
+        width : 100%;
     }
 }
 
@@ -537,19 +522,19 @@ Futher refencing will be place within the Readme.Md ) */
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 0rem);
+		width: calc(100% - 0);
 		max-width: 72rem;
 		z-index: 2;
 	}
 
 		#main-wrapper > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: 2px solid #eeeeee;
 			margin: 0;
 		}
 
 
-    input[type=text], select, textarea {
+    input[type="text"], select, textarea {
         width: 100%;
         padding: 12px;
         border: 1px solid #ccc;
@@ -560,7 +545,7 @@ Futher refencing will be place within the Readme.Md ) */
         resize: vertical;
     }
 
-    input[type=submit] {
+    input[type="submit"] {
         background-color: #35424a;
         color: white;
         padding: 12px 20px;
@@ -569,17 +554,17 @@ Futher refencing will be place within the Readme.Md ) */
         cursor: pointer;
     }
 
-    input[type=submit]:hover {
+    input[type="submit"]:hover {
         background-color: #2980b9;
     }
 
-    @media (min-width: 800px){
+    @media (min-width:800px){
       #chottoitsanimecontainer img{
           width: 100%;
 
     }
   }
-    @media (max-width: 600px) {
+    @media (max-width:600px) {
         .main-wrapper {
             width: 100%;
         }
@@ -587,7 +572,7 @@ Futher refencing will be place within the Readme.Md ) */
             width: 100%;
     }
   }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width:500px) {
 
       #main-wrapper {
         border: 0;
@@ -607,7 +592,6 @@ Futher refencing will be place within the Readme.Md ) */
       #map {
        width: 100%;
        height: 550px;
-       border: 1%;
       }
 
 
@@ -620,7 +604,7 @@ Futher refencing will be place within the Readme.Md ) */
         cursor:pointer;
     	}
 
-      @media screen and (min-width: 900px) {
+      @media screen and (min-width:900px) {
 
       			body {
       				font-size: 11pt;
@@ -628,7 +612,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (min-width: 900px) {
+      		@media screen and (min-width:900px) {
 
       			body {
       				font-size: 11pt;
@@ -636,7 +620,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (min-width: 900px) {
+      		@media screen and (min-width:900px) {
 
       			body {
       				font-size: 12pt;
@@ -644,7 +628,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (min-width: 736px) {
+      		@media screen and (min-width:736px) {
 
       			body {
       				font-size: 12pt;
@@ -652,7 +636,7 @@ Futher refencing will be place within the Readme.Md ) */
 
       		}
 
-      		@media screen and (min-width: 500px) {
+      		@media screen and (min-width:500px) {
 
       			body {
       				font-size: 12pt;
@@ -665,32 +649,29 @@ Futher refencing will be place within the Readme.Md ) */
   /**********************************************/
 
 #scroll {
-    position:fixed;
-    right:10px;
-    bottom:10px;
-    cursor:pointer;
-    width:50px;
-    height:50px;
-    background-color:#3498db;
-    text-indent:-9999px;
-    display:none;
-    -webkit-border-radius:60px;
-    -moz-border-radius:60px;
-    border-radius:60px
+  position : fixed;
+  right : 10px;
+  bottom : 10px;
+  cursor : pointer;
+  width : 50px;
+  height : 50px;
+  background-color : #3498db;
+  text-indent : -9999px;
+  display : none;
+  border-radius : 60px;
 }
 #scroll span {
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin-left:-8px;
-    margin-top:-12px;
-    height:0;
-    width:0;
-    border:8px solid transparent;
-    border-bottom-color:#ffffff;
+  position : absolute;
+  top : 50%;
+  left : 50%;
+  margin-left : -8px;
+  margin-top : -12px;
+  height : 0;
+  width : 0;
+  border : transparent solid 8px;
+  border-bottom-color : #ffffff;
 }
-#scroll:hover {
-    background-color:#e74c3c;
-    opacity:1;filter:"alpha(opacity=100)";
-    -ms-filter:"alpha(opacity=100)";
+    #scroll:hover {
+    background-color : #e74c3c;
+    opacity : 1;
 }
