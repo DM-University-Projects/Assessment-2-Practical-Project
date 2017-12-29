@@ -1,68 +1,69 @@
 /* Header **/
-header{
-  background:#35424a;
-  color:#ffffff;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom:#2980b9 3px solid;
-  border-top:#2980b9 3px solid;
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #2980b9 3px solid;
+  border-top: #2980b9 3px solid;
 }
 
-header a{
-  color:#ffffff;
-  text-decoration:none;
+header a {
+  color: #ffffff;
+  text-decoration: none;
   text-transform: uppercase;
-  font-size:16px;
+  font-size: 16px;
 }
 
-header li{
-  float:left;
-  display:inline;
+header li {
+  float: left;
+  display: inline;
   padding: 0 20px 0 20px;
 }
 
-header #youtubename{
-  float:left;
+header #youtubename {
+  float: left;
 }
 
-header #youtubename h2{
-  margin:0;
+header #youtubename h2 {
+  margin: 0;
 }
 
-header nav{
-  float:right;
-  margin-top:5px;
+header nav {
+  float: right;
+  margin-top: 5px;
 }
 
-header .highlight, header .current a{
-  color:#2980b9;
-  font-weight:bold;
+header .highlight, header .current a {
+  color: #2980b9;
+  font-weight: bold;
 }
 
-header a:hover{
-  color:#2980b9;
-  font-weight:bold;
+header a:hover {
+  color: #2980b9;
+  font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+  nav ul {
+    max-height: 0;
+  }
 
-@media screen and (max-width: 600px){
-      nav ul{
-        max-height: 0;
-      }
-      .hamburger{
-        max-height: 20em;
-      }
-      .cross{
-        max-height: 20em;
-      }
-      header nav ul li{
-      box-sizing: border-box;
-      width: 100%;
-      padding: 15px;
-      text-align: left;
-    }
+  .hamburger {
+    max-height: 20em;
+  }
 
-    }
+  .cross {
+    max-height: 20em;
+  }
+
+  header nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+  }
+}
 
      /* @media screen and (min-width: 480px) {
   .hamburger {
