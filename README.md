@@ -181,3 +181,15 @@ Assessment 2 Marking criteria
     In-text: (W3schools.com, 2017)
 
     Your Bibliography: W3schools.com. (2017). W3.CSS Slideshow. [online] Available at: https://www.w3schools.com/w3css/w3css_slideshow.asp [Accessed 28 Dec. 2017].
+
+# Harvard Referencing (HR11)
+
+    MULTIPLE LANGUAGES USING JQUERY AND JSON
+    In-text: (YouTube, 2017)
+
+    Your Bibliography: YouTube. (2017). Multiple languages using Jquery and Json. [online] Available at: https://www.youtube.com/watch?v=Tjt_u_OSh40 [Accessed 29 Dec. 2017].
+
+    With this code I changed it around to be able to used in other places.
+
+
+#Testing

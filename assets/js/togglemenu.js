@@ -171,7 +171,62 @@ $(document).ready(function() {
   $(this).toggleClass('mute');
  });
 
+ var arrLang = {
+ 	'en': {
+ 	'chottolan1' : 'Where Anime & Gaming brings out the best in ones Imagination',
+ 	'chottolan2' : 'Please Subscribe and Enjoy',
+ 	'chottolan3' : 'Welcome To ChottoItsAnime',
+ 	'chottolan4' : 'Best Anime Image',
+ 	'home' : 'Home',
+ 	'anime' : 'Anime',
+ 	'youtube' : 'Youtube',
+ 	'about' : 'About'
+ 	},
 
+ 	'jp' : {
+ 	'home' : 'ホーム',
+ 	'anime' : 'アニメ',
+ 	'youtube' : 'Youtube',
+ 	'about' : '約',
+ 	'chottolan1' : 'アニメ＆ゲームが想像力を最大限に引き出す場所',
+ 	'chottolan2' : '購読してお楽しみください。',
+ 	'chottolan3' : 'うぇｌこめ と ちょっといつぁにめ',
+ 	'chottolan4' : 'ベストアニメ画像'
+ },
+
+ 	'sp': {
+ 	'chottolan1' : 'Donde Anime & Gaming saca lo mejor de la imaginación',
+ 	'chottolan2' : 'Por favor suscríbete y disfruta',
+ 	'chottolan3' : 'Bien pelusa y un poco cuando se trata de',
+ 	'chottolan4' : 'Mejor imagen de Anime',
+ 	'home' :'Casa',
+ 	'anime':'Animado',
+ 	'youtube':'Youtube',
+ 	'about':'Acerca de'
+  },
+
+ 'fr': {
+ 'chottolan1' : 'Où Anime & Gaming fait ressortir le meilleur de limagination',
+ 'chottolan2' : 'S il vous plaît vous abonner et profiter',
+ 'chottolan3' : 'Eh bien beaucoup et un peu quand tante',
+ 'chottolan4' : 'Meilleure image d anime',
+ 'home' :'Accueil',
+ 'anime':'Animé',
+ 'youtube':'Youtube',
+ 'about':'Sur'
+ }
+
+ };
+
+ $(function(){
+ $('.translate').click(function(){
+ var lang = $(this).attr('id');
+
+ $('.lang').each(function(index, element){
+   $(this).text(arrLang[lang][$(this).attr('key')]);
+ });
+ });
+ });
 
 
 
