@@ -695,30 +695,8 @@ Futher refencing will be place within the Readme.Md ) */
 
 }
 
-@media screen and (min-width: 500px) {
-
-  #footer .copyright li {
-    border: 0;
-    display: block;
-    line-height: 1.65em;
-    margin: 0;
-    padding: 0.5em 0;
+@media screen and (min-width:480px) {
+  .button {
+    padding: 0;
   }
-
-}
-
-@media screen and (min-width: 900px) {
-
-#footer {
-padding: 4em 3em 2em 3em ;
-}
-
-}
-
-@media screen and (min-width: 736px) {
-
-#footer {
-padding: 3em 2em 1em 2em ;
-}
-
 }
